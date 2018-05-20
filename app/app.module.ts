@@ -9,8 +9,8 @@ import { AppComponent } from "./app.component";
 import { routes, navigatableComponents } from "./app.routing";
 
 import firebase = require('nativescript-plugin-firebase');
-import { EchoListService } from "./shared/echo/echo-list.service";
-import { UserService } from "./shared/user/user.service";
+import { EchoListService } from "./services/echo-list.service";
+import { UserService } from "./services/user.service";
 import { GeolocationService } from "./services/geolocation.service"
 import { NativeScriptUISideDrawerModule } from 'nativescript-ui-sidedrawer/angular'
 

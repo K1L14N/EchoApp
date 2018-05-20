@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from "@angular/router";
-import { Echo } from '../../../shared/echo/echo';
-import { EchoListService } from '../../../shared/echo/echo-list.service';
+import { Echo } from '../../../models/echo';
+import { EchoListService } from '../../../services/echo-list.service';
 
 @Component({
     moduleId: module.id,

@@ -1,8 +1,8 @@
 import { Injectable, OnInit, OnDestroy } from '@angular/core';
-import { Echo } from "./echo";
+import { Echo } from "../models/echo";
 import firebaseWebApi = require('nativescript-plugin-firebase/app');
 import { Subject } from 'rxjs/Subject';
-import { GeolocationService } from '../../services/geolocation.service';
+import { GeolocationService } from './geolocation.service';
 import * as geoLocation from "nativescript-geolocation";
 import { Location } from "nativescript-geolocation";
 import { Subscription } from 'rxjs/Subscription';

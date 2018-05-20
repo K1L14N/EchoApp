@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
-import { User } from "../../shared/user/user";
-import { UserService } from "../../shared/user/user.service";
+import { User } from "../../models/user";
+import { UserService } from "../../services/user.service";
 import { Router } from "@angular/router";
 import { Page } from "ui/page";
 import { Color } from "color";

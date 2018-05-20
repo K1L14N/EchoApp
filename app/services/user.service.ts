@@ -5,7 +5,7 @@ import "rxjs/add/operator/catch";
 import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
 
-import { User } from "./user";
+import { User } from "../models/user";
 
 import firebaseWebApi = require('nativescript-plugin-firebase/app');
 

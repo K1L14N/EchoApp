@@ -1,7 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild, OnDestroy, AfterViewInit, ChangeDetectorRef  } from "@angular/core";
-import { Echo } from "../../shared/echo/echo";
-import { EchoListService } from "../../shared/echo/echo-list.service";
-import { UserService } from "../../shared/user/user.service";
+import { Echo } from "../../models/echo";
+import { EchoListService } from "../../services/echo-list.service";
+import { UserService } from "../../services/user.service";
 import { TextField } from "ui/text-field";
 import { Subscription } from 'rxjs/Subscription';
 import { Page } from "ui/page";
