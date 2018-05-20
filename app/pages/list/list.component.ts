@@ -144,17 +144,17 @@ export class ListComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   onTapContacts() {
-    this.router.navigate(['/list']);
+    this.router.navigate(['/contacts']);
     this.onCloseDrawerTap();
   }
 
   onTapProfil() {
-    this.router.navigate(['/list']);
+    this.router.navigate(['/profil']);
     this.onCloseDrawerTap();
   }
 
   onTapAbout() {
-    this.router.navigate(['/list']);
+    this.router.navigate(['/about']);
     this.onCloseDrawerTap();
   }
 
