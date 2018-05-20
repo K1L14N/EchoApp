@@ -1,0 +1,48 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+
+  <RadSideDrawer #sidedrawerId tkExampleTitle tkToggleNavButton>
+    <StackLayout tkDrawerContent class="sideStackLayout">
+      <StackLayout class="sideTitleStackLayout">
+        <Label text="Menu"></Label>
+      </StackLayout>
+      <StackLayout class="sideStackLayout">
+        <Button text="Actualités" class="sideLabel sideLightLabel" (tap)="onTapActu()"></Button>
+        <Button text="Contacts" class="sideLabel sideDarkLabel" (tap)="onTapContacts()"></Button>
+        <Button text="Profil" class="sideLabel sideLightLabel" (tap)="onTapProfil()"></Button>
+        <Button text="À propos" class="sideLabel sideDarkLabel" (tap)="onTapAbout()"></Button>
+        <Button text="Se déconnecter" class="sideLabel sideLightLabel" (tap)="onTapLogout()"></Button>
+      </StackLayout>
+      <Button text="Close Drawer" color="white" padding="10" style="align-self: center" (tap)="onCloseDrawerTap()"></Button>
+    </StackLayout>
+
+    <StackLayout tkMainContent>
+        <Page.actionBar>
+            <ActionBar>
+                <NavigationButton icon="res://slider" (tap)="toggleDrawer()"></NavigationButton>
+            </ActionBar>
+        </Page.actionBar>
+      <GridLayout rows="auto, *" class="action-bar p-10">
+
+        <GridLayout row="0" columns="*, *" class="action-bar p-10">
+          <TextField #echoTextField [(ngModel)]="echo" hint="créer un signal" textWrap="true" (returnPress)="add()" col="0"></TextField>
+          <Button text="EMETTRE" class="btn btn-danger" (tap)="add()" col="1"></Button>
+        </GridLayout>
+    
+        <GridLayout row="1" tkExampleTitle tkToggleNavButton>
+          <Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-ui-listview" loaded="pageLoaded">
+            <ListView [items]="echoListPortee" class="list-group">
+                <ng-template tkListItemTemplate let-item="item" let-i="index">
+                    <StackLayout orientation="vertical" class="list-group-item" (tap)="onViewEcho(i)">
+                        <Label class="list-group-item-heading" width="1000px" text-align="right" [text]="item.date | timeAgo "></Label>
+                        <Label class="list-group-item-text" textWrap="true" height="175px" [text]="item.name"></Label>
+                    </StackLayout>
+                </ng-template>
+            </ListView>
+          </Page>
+        </GridLayout>
+    
+      </GridLayout>
+    </StackLayout>
+  </RadSideDrawer>
+</Page>

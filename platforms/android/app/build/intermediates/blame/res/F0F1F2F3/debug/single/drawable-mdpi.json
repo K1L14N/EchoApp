@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/banana.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/banana.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/logo_signup.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/logo_signup.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/icon.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/unchecked_white.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/unchecked_white.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/recent.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/recent.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/unchecked.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/unchecked.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/slider.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/slider.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/selected.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/selected.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/checked.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/checked.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/pear.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/pear.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/delete.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/delete.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/apple.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/apple.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/nonselected.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/nonselected.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/add.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/add.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/checked_white.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/checked_white.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-mdpi/logo_login.png",
+        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-mdpi/logo_login.png"
+    }
+]
