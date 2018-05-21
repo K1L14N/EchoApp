@@ -9,6 +9,8 @@ import { Router } from "@angular/router";
 import { GeolocationService } from "../../services/geolocation.service";
 import { Location } from 'nativescript-geolocation';
 import { Observable } from "data/observable";
+import { registerElement } from "nativescript-angular/element-registry";
+registerElement("PullToRefresh", () => require("nativescript-pulltorefresh").PullToRefresh);
 
 const firebase = require("nativescript-plugin-firebase");
 
@@ -96,6 +98,13 @@ export class ListComponent implements OnInit, OnDestroy {
     this.echoListService.createNewEcho(newEcho);
   }
   
+  refreshList(args) {
+    var pullRefresh = args.object;
+    setTimeout(function () {
+       pullRefresh.refreshing = false;
+    }, 1000);
+  }
+
   ngOnDestroy() {
     this.echoSubscription.unsubscribe();
     this.locationSubscription.unsubscribe();

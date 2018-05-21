@@ -1,5 +1,7 @@
 
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" margin-top="50px">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+xmlns:PullRefresh="nativescript-pulltorefresh"
+loaded="pageLoaded">
 
   <GridLayout rows="auto, *" class="action-bar p-10" >
 
@@ -10,7 +12,8 @@
     
         <GridLayout row="1" tkExampleTitle tkToggleNavButton>
           <Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-ui-listview" loaded="pageLoaded">
-            <ListView [items]="echoListPortee" class="list-group">
+            <PullToRefresh (refresh)="refreshList($event)">
+              <ListView [items]="echoListPortee" class="list-group">
                 <ng-template tkListItemTemplate let-item="item" let-i="index">
                     <StackLayout orientation="vertical" class="list-group-item" (tap)="onViewEcho(i)">
                         <Label class="list-group-item-heading" width="1000px" text-align="right" [text]="item.date | timeAgo "></Label>
@@ -18,6 +21,7 @@
                     </StackLayout>
                 </ng-template>
             </ListView>
+            </PullToRefresh>
           </Page>
         </GridLayout>
     

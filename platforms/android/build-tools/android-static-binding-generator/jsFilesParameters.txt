@@ -9,6 +9,8 @@
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/pages/list/list.component.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/pages/list/list-single/list-single.component.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/pages/about/about.component.js
+/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-pulltorefresh/pulltorefresh-common.js
+/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-pulltorefresh/pulltorefresh.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/css/parser.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/css/index.js

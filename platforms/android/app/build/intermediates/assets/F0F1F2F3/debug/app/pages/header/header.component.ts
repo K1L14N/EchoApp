@@ -8,7 +8,7 @@ import { AndroidApplication, AndroidActivityBackPressedEventData } from "applica
 import { isAndroid } from "platform";
 import * as dialogs from "ui/dialogs";
 import { transition } from '@angular/animations';
-import { RouterExtensions } from 'nativescript-angular';
+import { RouterExtensions } from 'nativescript-angular/router';
 import { AnimationCurve } from 'ui/enums';
 var frameModule = require('ui/frame');
 
@@ -63,33 +63,33 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 				} else if (this.router.isActive('/contacts', true)) {
 					data.cancel = true;
 					this.routerExtensions.navigate(['/list'], { transition: {
-							name: 'flipLeft',
-							duration: 2000,
-							curve: AnimationCurve.easeIn
+							name: 'slide',
+							duration: 1000,
+							curve: 'linear'
 					}});
 					//console.log('3');					
 				} else if (this.router.isActive('/profil', true)) {
 					data.cancel = true;
 					this.routerExtensions.navigate(['/list'], { transition: {
 						name: 'flipLeft',
-						duration: 2000,
-						curve: AnimationCurve.easeIn
+						duration: 1000,
+						curve: 'linear'
 				}});
 					//console.log('4');					
 				} else if (this.router.isActive('/about', true)) {
 					data.cancel = true;
 					this.routerExtensions.navigate(['/list'], { transition: {
-						name: 'flipLeft',
-						duration: 2000,
-						curve: AnimationCurve.easeIn
+						name: 'flip',
+						duration: 1000,
+						curve: 'linear'
 				}});
 					//console.log('5');					
 				} else { //list/view/:id
 					data.cancel = true;
 					this.routerExtensions.navigate(['/list'], { transition: {
-						name: 'flipLeft',
-						duration: 2000,
-						curve: AnimationCurve.easeIn
+						name: 'fade',
+						duration: 1000,
+						curve: 'linear'
 				}});
 					//console.log('2');	
 				}

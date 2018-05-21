@@ -13,6 +13,7 @@
     "nativescript-geolocation": true,
     "nativescript-permissions": true,
     "nativescript-plugin-firebase": true,
+    "nativescript-pulltorefresh": true,
     "nativescript-push-notifications": true,
     "nativescript-theme-core": true,
     "nativescript-ui-listview": true,
