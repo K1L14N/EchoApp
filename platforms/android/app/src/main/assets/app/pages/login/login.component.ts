@@ -8,11 +8,11 @@ import { View } from "ui/core/view";
 import { _resolveAnimationCurve } from "tns-core-modules/ui/animation/animation";
 import { AnimationCurve } from "ui/enums";
 import { GeolocationService } from '../../services/geolocation.service';
-
+import { ContactsService } from '../../services/contacts.service';
 
 @Component({
   selector: "my-app",
-  providers: [UserService, GeolocationService],
+  providers: [UserService, GeolocationService, ContactsService],
   templateUrl: "./pages/login/login.html",
   styleUrls: ["pages/login/login-common.css", "pages/login/login.css"]
 })
@@ -27,7 +27,8 @@ export class LoginComponent implements OnInit {
   constructor(private router: Router, 
               private userService: UserService, 
               private page: Page,
-              private geolocationService: GeolocationService
+              private geolocationService: GeolocationService,
+              private contactsService: ContactsService
               ) {
     this.user = new User();
     this.user.email = 'test@test.com';
@@ -39,6 +40,7 @@ export class LoginComponent implements OnInit {
     this.page.actionBarHidden = true;
     //this.page.backgroundImage = "res://bg_login";
     this.geolocationService.updateLocation();
+    this.contactsService.reqPerm();
   }
 
   submit() {
