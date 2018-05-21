@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/incremental/mergeF0F1F2F3DebugResources/merged.dir/values/values.xml",
+        "outputFile": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/incremental/mergeF0F1F2F3DebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -1075,7 +1075,7 @@
                     "endOffset": 4239
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1132,7 +1132,7 @@
                     "endOffset": 4426
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1151,7 +1151,7 @@
                     "endOffset": 4480
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1398,7 +1398,7 @@
                     "endOffset": 5204
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/debug/res/values/colors.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/debug/res/values/colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1474,7 +1474,7 @@
                     "endOffset": 5469
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/colors.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 1,
@@ -1493,7 +1493,7 @@
                     "endOffset": 5514
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/colors.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1512,7 +1512,7 @@
                     "endOffset": 5563
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/colors.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 1,
@@ -1531,7 +1531,7 @@
                     "endOffset": 5612
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1816,7 +1816,7 @@
                     "endOffset": 6662
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1835,7 +1835,7 @@
                     "endOffset": 6709
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1854,7 +1854,7 @@
                     "endOffset": 6762
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1949,7 +1949,7 @@
                     "endOffset": 7096
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1968,7 +1968,7 @@
                     "endOffset": 7136
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -3393,7 +3393,7 @@
                     "endOffset": 46001
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -6072,7 +6072,7 @@
                     "endOffset": 55059
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/strings.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -6490,7 +6490,7 @@
                     "endOffset": 57889
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -6528,7 +6528,7 @@
                     "endOffset": 58076
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -6547,7 +6547,7 @@
                     "endOffset": 58158
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -6566,7 +6566,7 @@
                     "endOffset": 58262
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -6585,7 +6585,7 @@
                     "endOffset": 58365
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -6604,7 +6604,7 @@
                     "endOffset": 58485
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -6623,7 +6623,7 @@
                     "endOffset": 58579
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -6642,7 +6642,7 @@
                     "endOffset": 58648
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -6661,7 +6661,7 @@
                     "endOffset": 58714
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -6680,7 +6680,7 @@
                     "endOffset": 58781
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/values/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -6794,7 +6794,7 @@
                     "endOffset": 59667
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/generated/res/google-services/F0F1F2F3/debug/values/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -6851,7 +6851,7 @@
                     "endOffset": 59846
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/strings.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -6968,7 +6968,7 @@
                     "endOffset": 60548
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/styles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -6989,7 +6989,7 @@
                     "endOffset": 60886
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/styles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 1,
@@ -9958,7 +9958,7 @@
                     "endOffset": 126922
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/styles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 1,
@@ -9979,7 +9979,7 @@
                     "endOffset": 127225
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/styles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -10000,7 +10000,7 @@
                     "endOffset": 127425
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values/errorstyles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values/errorstyles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -10143,7 +10143,7 @@
                     "endOffset": 135478
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/2167b4f8f873164c5b5ff97d8b3810d8eddd5151/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/5ae44354bbfad76fd590e7dc674e86d71d74a4c9/output/res/values/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -10164,7 +10164,7 @@
                     "endOffset": 135602
                 },
                 "from": {
-                    "file": "/home/k1l14n/.android/build-cache/2167b4f8f873164c5b5ff97d8b3810d8eddd5151/output/res/values/values.xml",
+                    "file": "/home/k1l14n/.android/build-cache/5ae44354bbfad76fd590e7dc674e86d71d74a4c9/output/res/values/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,

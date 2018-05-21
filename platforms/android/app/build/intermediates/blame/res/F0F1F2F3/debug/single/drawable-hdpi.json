@@ -1,66 +1,62 @@
 [
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/logo_signup.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/logo_signup.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/selected.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/selected.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/unchecked_white.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/unchecked_white.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/banana.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/banana.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/nonselected.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/nonselected.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/apple.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/apple.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/add.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/add.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/add.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/add.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/banana.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/banana.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/logo_signup.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/logo_signup.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/pear.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/pear.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/unchecked_white.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/unchecked_white.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/delete.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/delete.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/recent.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/recent.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/unchecked.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/unchecked.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/delete.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/delete.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/slider.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/slider.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/pear.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/pear.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/selected.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/selected.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/checked.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/checked.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/apple.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/apple.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/nonselected.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/nonselected.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/icon.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/icon.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/unchecked.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/unchecked.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/recent.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/recent.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/checked_white.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/checked_white.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/logo_login.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/logo_login.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/logo_login.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/logo_login.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/checked.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/checked.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/checked_white.png",
-        "source": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/drawable-hdpi/checked_white.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-hdpi/icon.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-hdpi/icon.png"
     }
 ]

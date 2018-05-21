@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild, OnDestroy, AfterViewInit, ChangeDetectorRef  } from "@angular/core";
+import { Component, ElementRef, OnInit, ViewChild, OnDestroy } from "@angular/core";
 import { Echo } from "../../models/echo";
 import { EchoListService } from "../../services/echo-list.service";
 import { UserService } from "../../services/user.service";
@@ -9,11 +9,9 @@ import { Router } from "@angular/router";
 import { GeolocationService } from "../../services/geolocation.service";
 import { Location } from 'nativescript-geolocation';
 import { Observable } from "data/observable";
-import { RadSideDrawerComponent, SideDrawerType } from "nativescript-ui-sidedrawer/angular";
-import { RadSideDrawer } from 'nativescript-ui-sidedrawer';
 
 const firebase = require("nativescript-plugin-firebase");
-import * as dialogs from "ui/dialogs";
+
 
 @Component({
   selector: "list",
@@ -22,9 +20,7 @@ import * as dialogs from "ui/dialogs";
   styleUrls: ["./list-common.css", "./list.css"]
 })
 
-export class ListComponent implements OnInit, OnDestroy, AfterViewInit {
-  sidedrawerOn: Boolean = false;
-
+export class ListComponent implements OnInit, OnDestroy {
   locationSubscription: Subscription;
   currentLocation: Location;
 
@@ -36,24 +32,13 @@ export class ListComponent implements OnInit, OnDestroy, AfterViewInit {
 
   echo = "";
   @ViewChild("echoTextField") echoTextField: ElementRef;
-
-  drawer: RadSideDrawer;
- 
-  @ViewChild("sidedrawerId") public drawerComponent: RadSideDrawerComponent;
   
-  constructor(private echoListService: EchoListService,
-              private userService: UserService,
-              private page: Page,
-              private router: Router,
-              private geolocationService: GeolocationService,
-              private changeDetectorRef: ChangeDetectorRef) 
-              {}
-
-  ngAfterViewInit() {
-    // duplicate
-    this.drawer = this.drawerComponent.sideDrawer;
-    this.changeDetectorRef.detectChanges();
-  }
+  constructor(
+    private echoListService: EchoListService,
+    private userService: UserService,
+    private page: Page,
+    private router: Router,
+    private geolocationService: GeolocationService) { }
 
   ngOnInit() {
     // en cas d'update de Location
@@ -115,64 +100,6 @@ export class ListComponent implements OnInit, OnDestroy, AfterViewInit {
     this.echoSubscription.unsubscribe();
     this.locationSubscription.unsubscribe();
     this.echoPorteeSubscription.unsubscribe();
-  }
-
-  toggleDrawer() {
-    if (this.sidedrawerOn) {
-      this.onCloseDrawerTap();
-    } else {
-      this.onShowDrawerTap();
-    }
-  }
-
-  //args: observable.EventData
-  onShowDrawerTap() {
-    //console.log("Drawer method reached");
-    this.drawer.showDrawer();
-    this.sidedrawerOn = !this.sidedrawerOn;
-  }
-
-  onCloseDrawerTap() {
-    //console.log("Close reached");
-    this.drawer.closeDrawer();
-    this.sidedrawerOn = !this.sidedrawerOn;
-  }
-
-  onTapActu() {
-    this.router.navigate(['/list']);
-    this.onCloseDrawerTap();
-  }
-
-  onTapContacts() {
-    this.router.navigate(['/contacts']);
-    this.onCloseDrawerTap();
-  }
-
-  onTapProfil() {
-    this.router.navigate(['/profil']);
-    this.onCloseDrawerTap();
-  }
-
-  onTapAbout() {
-    this.router.navigate(['/about']);
-    this.onCloseDrawerTap();
-  }
-
-  onTapLogout() {
-    dialogs.confirm({
-        title: "Déconnection en cours",
-        message: "Voulez-vous vraiment vous déconnecter ?",
-        okButtonText: "Oui",
-        cancelButtonText: "Annuler"
-    }).then(result => {
-      // result argument is boolean
-      console.log("Dialog result: " + result);
-      if (result) {
-        this.userService.signOutUser();
-        this.router.navigate(['/']);
-        this.onCloseDrawerTap();
-      }
-    });
   }
 
 }

@@ -1,32 +1,32 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:3:2-38
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:3:2-38
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
 supports-screens
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
 	android:largeScreens
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
 	android:smallScreens
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
 	android:normalScreens
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
 	android:xlargeScreens
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
 uses-sdk
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
 MERGED from [com.android.support:multidex:1.0.1] /home/k1l14n/.android/build-cache/602ccbb5cf64992fd66823fbab541b4badc477b0/output/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/k1l14n/.android/build-cache/3a6171cdf51a983b03058a77d0ac21a5c008b1b2/output/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/k1l14n/.android/build-cache/e69953b2fbea597bf4d27106905b23fba1a67600/output/AndroidManifest.xml:20:5-44
@@ -73,50 +73,50 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /home/k1l14n/.android/b
 MERGED from [com.android.support:support-core-utils:26.1.0] /home/k1l14n/.android/build-cache/7aff7fe9ff4318dba5398dc85d9e34a467a8bba0/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:26.1.0] /home/k1l14n/.android/build-cache/74c6aed702defcccd4e8cb2260099e246c5dc6be/output/AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-cache/4e40ce274c32edddecb2cd8a5e947ea922fca807/output/AndroidManifest.xml:20:5-22:41
-MERGED from [:nativescript-optimized:] /home/k1l14n/.android/build-cache/1a26f48c340c6c2792a15ada26966d16d4741446/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/a88a0b7d37f250022ec8935910bc607129a13b3a/output/AndroidManifest.xml:7:5-47
-MERGED from [:firebase-release:] /home/k1l14n/.android/build-cache/34926dbea1947cc8b8644d23221e41d8581b057d/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:pushplugin:] /home/k1l14n/.android/build-cache/4ced61f053b3cda0f0042b7b2472abcf710c7920/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSListView-release:] /home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSSideDrawer-release:] /home/k1l14n/.android/build-cache/50a41bff6ac503f1e50a1a5d89c0f1061994d1ca/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSCore-release:] /home/k1l14n/.android/build-cache/2167b4f8f873164c5b5ff97d8b3810d8eddd5151/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:widgets-release:] /home/k1l14n/.android/build-cache/f49988ad3ce73577e7d028a27c4b69d442bb2313/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized:] /home/k1l14n/.android/build-cache/2d9f9156f4f3d494f8e49eb0ebd7e937849300ad/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/0804712d1ee3fda96471a1d52a92c83bb38a0e13/output/AndroidManifest.xml:7:5-47
+MERGED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] /home/k1l14n/.android/build-cache/66b5d8f57ce8585067e27eeac20d79fbb41c08ab/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /home/k1l14n/.android/build-cache/5ae44354bbfad76fd590e7dc674e86d71d74a4c9/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/k1l14n/.android/build-cache/7031d277d39356a26af34dd8ca574b940f766ff9/output/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.0.0-alpha1] /home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
-		MERGED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
-		INJECTED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		MERGED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
 uses-permission#android.permission.INTERNET
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
 MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:21:2-68
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:21:2-68
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:21:19-66
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:21:19-66
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:22:2-69
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:22:2-69
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:22:19-67
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:22:19-67
 application
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:24:2-42:16
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:24:2-42:16
 MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/k1l14n/.android/build-cache/3a6171cdf51a983b03058a77d0ac21a5c008b1b2/output/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/k1l14n/.android/build-cache/e69953b2fbea597bf4d27106905b23fba1a67600/output/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-core:12.0.1] /home/k1l14n/.android/build-cache/807b62f035b5439cbd60153f5b270df9a30aac83/output/AndroidManifest.xml:5:5-20
@@ -156,41 +156,41 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /home/k1l14n/.android/b
 MERGED from [com.android.support:support-core-utils:26.1.0] /home/k1l14n/.android/build-cache/7aff7fe9ff4318dba5398dc85d9e34a467a8bba0/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /home/k1l14n/.android/build-cache/74c6aed702defcccd4e8cb2260099e246c5dc6be/output/AndroidManifest.xml:25:5-29:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-cache/4e40ce274c32edddecb2cd8a5e947ea922fca807/output/AndroidManifest.xml:24:5-28:19
-MERGED from [:firebase-release:] /home/k1l14n/.android/build-cache/34926dbea1947cc8b8644d23221e41d8581b057d/output/AndroidManifest.xml:11:5-22:19
-MERGED from [:pushplugin:] /home/k1l14n/.android/build-cache/4ced61f053b3cda0f0042b7b2472abcf710c7920/output/AndroidManifest.xml:11:5-22:19
-MERGED from [:widgets-release:] /home/k1l14n/.android/build-cache/f49988ad3ce73577e7d028a27c4b69d442bb2313/output/AndroidManifest.xml:11:5-12:19
+MERGED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:11:5-22:19
+MERGED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:11:5-22:19
+MERGED from [:widgets-release:] /home/k1l14n/.android/build-cache/7031d277d39356a26af34dd8ca574b940f766ff9/output/AndroidManifest.xml:11:5-12:19
 	android:label
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:28:3-35
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:28:3-35
 	android:allowBackup
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:26:3-29
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:26:3-29
 	android:icon
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:27:3-32
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:27:3-32
 	android:theme
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:29:3-34
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:29:3-34
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:25:3-49
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:25:3-49
 activity#com.tns.NativeScriptActivity
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:30:3-40:14
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:30:3-40:14
 	android:label
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:32:4-49
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:32:4-49
 	android:configChanges
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:33:4-65
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:33:4-65
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:31:4-47
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:31:4-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:35:5-39:20
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:35:5-39:20
 action#android.intent.action.MAIN
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:36:5-57
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:36:5-57
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:36:13-54
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:36:13-54
 category#android.intent.category.LAUNCHER
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
 activity#com.tns.ErrorReportActivity
-ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
 	android:name
-		ADDED from /home/k1l14n/Documents/Yodle/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
+		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:24:5-79
@@ -370,22 +370,22 @@ ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-ca
 	android:name
 		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-cache/4e40ce274c32edddecb2cd8a5e947ea922fca807/output/AndroidManifest.xml:26:13-58
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/a88a0b7d37f250022ec8935910bc607129a13b3a/output/AndroidManifest.xml:9:5-79
+ADDED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/0804712d1ee3fda96471a1d52a92c83bb38a0e13/output/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/a88a0b7d37f250022ec8935910bc607129a13b3a/output/AndroidManifest.xml:9:22-76
+		ADDED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/0804712d1ee3fda96471a1d52a92c83bb38a0e13/output/AndroidManifest.xml:9:22-76
 service#org.nativescript.plugins.firebase.MyFirebaseMessagingService
-ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/34926dbea1947cc8b8644d23221e41d8581b057d/output/AndroidManifest.xml:12:9-16:19
+ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:12:9-16:19
 	android:name
-		ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/34926dbea1947cc8b8644d23221e41d8581b057d/output/AndroidManifest.xml:12:18-93
+		ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:12:18-93
 service#org.nativescript.plugins.firebase.MyFirebaseInstanceIDService
-ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/34926dbea1947cc8b8644d23221e41d8581b057d/output/AndroidManifest.xml:17:9-21:19
+ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:17:9-21:19
 	android:name
-		ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/34926dbea1947cc8b8644d23221e41d8581b057d/output/AndroidManifest.xml:17:18-94
+		ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:17:18-94
 service#com.telerik.pushplugin.PushPlugin
-ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/4ced61f053b3cda0f0042b7b2472abcf710c7920/output/AndroidManifest.xml:12:9-16:19
+ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:12:9-16:19
 	android:name
-		ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/4ced61f053b3cda0f0042b7b2472abcf710c7920/output/AndroidManifest.xml:12:18-66
+		ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:12:18-66
 service#com.telerik.pushplugin.InstanceIdListenerService
-ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/4ced61f053b3cda0f0042b7b2472abcf710c7920/output/AndroidManifest.xml:17:9-21:19
+ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:17:9-21:19
 	android:name
-		ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/4ced61f053b3cda0f0042b7b2472abcf710c7920/output/AndroidManifest.xml:17:18-81
+		ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:17:18-81

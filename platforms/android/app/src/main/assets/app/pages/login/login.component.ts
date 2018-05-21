@@ -54,6 +54,7 @@ export class LoginComponent implements OnInit {
       .then(
         () => {
           this.router.navigate(['/list']);
+          this.page.actionBarHidden = false;
         },
         (error) => {
           alert('erreur : ' + error);

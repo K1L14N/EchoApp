@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/incremental/mergeF0F1F2F3DebugResources/merged.dir/values-v21/values-v21.xml",
+        "outputFile": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/incremental/mergeF0F1F2F3DebugResources/merged.dir/values-v21/values-v21.xml",
         "map": [
             {
                 "to": {
@@ -30,7 +30,7 @@
                     "endOffset": 198
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values-v21/colors.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values-v21/colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 1,
@@ -107,7 +107,7 @@
                     "endOffset": 617
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values-v21/styles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values-v21/styles.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1764,7 +1764,7 @@
                     "endOffset": 17324
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values-v21/styles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values-v21/styles.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 1,
@@ -1924,7 +1924,7 @@
                     "endOffset": 19832
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values-v21/styles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values-v21/styles.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1945,7 +1945,7 @@
                     "endOffset": 19991
                 },
                 "from": {
-                    "file": "/home/k1l14n/Documents/Yodle/platforms/android/app/src/main/res/values-v21/styles.xml",
+                    "file": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/values-v21/styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,

@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/avd_show_password.xml",
-        "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/avd_show_password.xml"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/design_password_eye.xml",
-        "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/design_password_eye.xml"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/pressable_item_background.xml",
-        "source": "/home/k1l14n/.android/build-cache/4ee5ad4ca551a2218f95a019a8f728d4500d6917/output/res/drawable-v21/pressable_item_background.xml"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/avd_hide_password.xml",
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/avd_hide_password.xml",
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/design_password_eye.xml",
+        "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/pressable_item_background.xml",
+        "source": "/home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/res/drawable-v21/pressable_item_background.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/avd_show_password.xml",
+        "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/design_bottom_navigation_item_background.xml",
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/Yodle/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/notification_action_background.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     }
 ]

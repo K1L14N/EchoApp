@@ -7,12 +7,14 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ProfilComponent } from './pages/profil/profil.component';
 
 export const routes = [
-  { path: "", component: LoginComponent },
+  { path : "", redirectTo: "login", pathMatch: "full"},
+  { path: "login", component: LoginComponent },
   { path: "list", component: ListComponent },
   { path: "list/view/:id", component: ListSingleComponent},
   { path: "contacts", component: ContactsComponent},
   { path: "profil", component: ProfilComponent},
-  { path: "about", component: AboutComponent}
+  { path: "about", component: AboutComponent},
+  { path: "**", redirectTo: "login", pathMatch: "full"}
 ];
 
 export const navigatableComponents = [

@@ -13,6 +13,8 @@ import { EchoListService } from "./services/echo-list.service";
 import { UserService } from "./services/user.service";
 import { GeolocationService } from "./services/geolocation.service"
 import { NativeScriptUISideDrawerModule } from 'nativescript-ui-sidedrawer/angular'
+import { HeaderComponent } from './pages/header/header.component';
+import { NativeScriptCommonModule } from 'nativescript-angular/common';
 
 firebase
   .init({
@@ -29,12 +31,14 @@ firebase
     NativeScriptHttpModule,
     NativeScriptRouterModule,
     NativeScriptRouterModule.forRoot(routes),
-    NativeScriptUISideDrawerModule
+    NativeScriptUISideDrawerModule,
+    NativeScriptCommonModule
   ],
   declarations: [
     AppComponent,
     ...navigatableComponents,
-    TimeAgoPipe
+    TimeAgoPipe,
+    HeaderComponent
   ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],

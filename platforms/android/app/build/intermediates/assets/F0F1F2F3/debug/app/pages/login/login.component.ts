@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
-import { User } from "../../shared/user/user";
-import { UserService } from "../../shared/user/user.service";
+import { User } from "../../models/user";
+import { UserService } from "../../services/user.service";
 import { Router } from "@angular/router";
 import { Page } from "ui/page";
 import { Color } from "color";
@@ -27,10 +27,12 @@ export class LoginComponent implements OnInit {
   constructor(private router: Router, 
               private userService: UserService, 
               private page: Page,
-              private geolocationService: GeolocationService) {
+              private geolocationService: GeolocationService
+              ) {
     this.user = new User();
     this.user.email = 'test@test.com';
     this.user.password = 'kkkkkk';
+
   }
 
   ngOnInit() {  
@@ -52,6 +54,7 @@ export class LoginComponent implements OnInit {
       .then(
         () => {
           this.router.navigate(['/list']);
+          this.page.actionBarHidden = false;
         },
         (error) => {
           alert('erreur : ' + error);

@@ -1,31 +1,7 @@
 
-<!--<Page xmlns="http://schemas.nativescript.org/tns.xsd"> -->
-  <Page.actionBar>
-    <ActionBar>
-        <NavigationButton icon="res://slider" (tap)="onShowDrawerTap()"></NavigationButton>
-    </ActionBar>
-  </Page.actionBar>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" margin-top="50px">
 
-  <RadSideDrawer #sidedrawerId tkExampleTitle tkToggleNavButton>
-    <StackLayout tkDrawerContent class="sideStackLayout">
-      <StackLayout class="sideTitleStackLayout">
-        <Label text="Navigation Menu"></Label>
-      </StackLayout>
-      <StackLayout class="sideStackLayout">
-        <Label text="Primary" class="sideLabel sideLightGrayLabel"></Label>
-        <Label text="Social" class="sideLabel"></Label>
-        <Label text="Promotions" class="sideLabel"></Label>
-        <Label text="Labels" class="sideLabel sideLightGrayLabel"></Label>
-        <Label text="Important" class="sideLabel"></Label>
-        <Label text="Starred" class="sideLabel"></Label>
-        <Label text="Sent Mail" class="sideLabel"></Label>
-        <Label text="Drafts" class="sideLabel"></Label>
-      </StackLayout>
-      <Label text="Close Drawer" color="lightgray" padding="10" style="align-self: center" (tap)="onCloseDrawerTap()"></Label>
-    </StackLayout>
-
-    <StackLayout tkMainContent>
-      <GridLayout rows="auto, *" class="action-bar p-10">
+  <GridLayout rows="auto, *" class="action-bar p-10" >
 
         <GridLayout row="0" columns="*, *" class="action-bar p-10">
           <TextField #echoTextField [(ngModel)]="echo" hint="créer un signal" textWrap="true" (returnPress)="add()" col="0"></TextField>
@@ -46,6 +22,5 @@
         </GridLayout>
     
       </GridLayout>
-    </StackLayout>
-  </RadSideDrawer>
-<!-- </Page> -->
+
+</Page>

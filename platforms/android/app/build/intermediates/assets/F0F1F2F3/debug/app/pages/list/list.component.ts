@@ -1,6 +1,7 @@
-import { Component, ElementRef, OnInit, ViewChild, OnDestroy, AfterViewInit, ChangeDetectorRef  } from "@angular/core";
-import { Echo } from "../../shared/echo/echo";
-import { EchoListService } from "../../shared/echo/echo-list.service";
+import { Component, ElementRef, OnInit, ViewChild, OnDestroy } from "@angular/core";
+import { Echo } from "../../models/echo";
+import { EchoListService } from "../../services/echo-list.service";
+import { UserService } from "../../services/user.service";
 import { TextField } from "ui/text-field";
 import { Subscription } from 'rxjs/Subscription';
 import { Page } from "ui/page";
@@ -8,10 +9,9 @@ import { Router } from "@angular/router";
 import { GeolocationService } from "../../services/geolocation.service";
 import { Location } from 'nativescript-geolocation';
 import { Observable } from "data/observable";
-import { RadSideDrawerComponent, SideDrawerType } from "nativescript-ui-sidedrawer/angular";
-import { RadSideDrawer } from 'nativescript-ui-sidedrawer';
 
 const firebase = require("nativescript-plugin-firebase");
+
 
 @Component({
   selector: "list",
@@ -20,8 +20,7 @@ const firebase = require("nativescript-plugin-firebase");
   styleUrls: ["./list-common.css", "./list.css"]
 })
 
-export class ListComponent implements OnInit, OnDestroy, AfterViewInit {
-
+export class ListComponent implements OnInit, OnDestroy {
   locationSubscription: Subscription;
   currentLocation: Location;
 
@@ -33,26 +32,15 @@ export class ListComponent implements OnInit, OnDestroy, AfterViewInit {
 
   echo = "";
   @ViewChild("echoTextField") echoTextField: ElementRef;
-
-  private mainContentText: string;
-  private drawer: RadSideDrawer;
- 
-  @ViewChild("#sidedrawerId") public drawerComponent: RadSideDrawerComponent;
   
-  constructor(private echoListService: EchoListService,
-              private page: Page,
-              private router: Router,
-              private geolocationService: GeolocationService,
-              private changeDetectorRef: ChangeDetectorRef) {}
-
-  ngAfterViewInit() {
-    this.drawer = this.drawerComponent.sideDrawer;
-    this.changeDetectorRef.detectChanges();
-  }
+  constructor(
+    private echoListService: EchoListService,
+    private userService: UserService,
+    private page: Page,
+    private router: Router,
+    private geolocationService: GeolocationService) { }
 
   ngOnInit() {
-    this.mainContentText = "SideDrawer for NativeScript can be easily setup in the HTML definition of your page by defining tkDrawerContent and tkMainContent. The component has a default transition and position and also exposes notifications related to changes in its state. Swipe from left to open side drawer.";
-
     // en cas d'update de Location
     this.locationSubscription = this.geolocationService.locationSubject.subscribe(
       (location: Location) => {
@@ -80,6 +68,8 @@ export class ListComponent implements OnInit, OnDestroy, AfterViewInit {
 
     // charge les echos
     this.echoListService.getEchos();
+
+    
   }
 
   onViewEcho(idEcho) {
@@ -112,14 +102,4 @@ export class ListComponent implements OnInit, OnDestroy, AfterViewInit {
     this.echoPorteeSubscription.unsubscribe();
   }
 
-  //args: observable.EventData
-  onShowDrawerTap() {
-    console.log("Drawer method reached");
-      this.drawer.showDrawer();
-  }
-
-  onCloseDrawerTap() {
-      console.log("Close reached");
-      this.drawer.closeDrawer();
-  }
 }
