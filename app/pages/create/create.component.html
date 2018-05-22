@@ -1,7 +1,12 @@
 
 <TabView>
-        <StackLayout *tabItem="{title: 'Générateur'}" class="TabView">
-            <Label text="Label in Tab 1"></Label>
+        <StackLayout row="*, auto, auto" colums="*" *tabItem="{title: 'Générateur'}" class="TabView">
+
+            <TextView row="0" #echoTextField [(ngModel)]="echo" style="margin-top: 15px" borderColor="#DEDEDE" borderWidth="1" height="500px" hint="Coder un signal"  returnKeyType="send" class="input input-border" (returnPress)="add()"></TextView>
+<!--                 <TextField row="0" #echoTextField [(ngModel)]="echo" hint="Coder un signal" textWrap="false" (returnPress)="add()"></TextField> -->
+                <Image row="1" src="res://add" height="500px" stretch="none" verticalAlignment="center" horizontalAlignment="center"></Image>
+                <Button row="2" text="Envoyer" verticalAlignment="bottom" class="btn btn-danger" (tap)="add()"></Button>
+
         </StackLayout>
         <StackLayout *tabItem="{title: 'Réglages'}" class="TabView">
             <Label text="Label in Tab 2"></Label>

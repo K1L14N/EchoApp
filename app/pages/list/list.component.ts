@@ -23,24 +23,27 @@ const firebase = require("nativescript-plugin-firebase");
 })
 
 export class ListComponent implements OnInit, OnDestroy {
+  
   locationSubscription: Subscription;
   currentLocation: Location;
-
   echoList: Echo[] = [];
   echoListPortee: any = [];
-
+/* 
   echoSubscription: Subscription;
-  echoPorteeSubscription: Subscription;
-
-  echo = "";
-  @ViewChild("echoTextField") echoTextField: ElementRef;
+  echoPorteeSubscription: Subscription; */
   
   constructor(
     private echoListService: EchoListService,
     private userService: UserService,
     private page: Page,
     private router: Router,
-    private geolocationService: GeolocationService) { }
+    private geolocationService: GeolocationService) {
+      setTimeout(() => {
+        this.echoListService.getEchos().then(() => {
+          this.echoListPortee = this.echoListService.echosPortee;
+        })
+      }, 1000);
+    }
 
   ngOnInit() {
     this.userService.initUser();
@@ -53,7 +56,7 @@ export class ListComponent implements OnInit, OnDestroy {
     this.geolocationService.updateLocation();
     this.geolocationService.emitLocation();
 
-    // en cas d'update de echo dans la portée
+    /* // en cas d'update de echo dans la portée
     this.echoPorteeSubscription = this.echoListService.echosPorteeSubject.subscribe(
       (echosPortee: Echo[]) => {
         this.echoListPortee = echosPortee;
@@ -67,13 +70,12 @@ export class ListComponent implements OnInit, OnDestroy {
         this.echoList = echos;
       });
     // fire la méthode 'next' ie initialise this.echoList ...
-    this.echoListService.emitEchos();
+    this.echoListService.emitEchos(); */
 
     // charge les echos
     this.echoListService.getEchos()
-    .then((args) => { this.echoListPortee = args;})
+    .then((args) => { this.echoListPortee = []; this.echoListPortee = args;})
 
-    
   }
 
   onViewEcho(idEcho) {
@@ -84,25 +86,7 @@ export class ListComponent implements OnInit, OnDestroy {
     this.router.navigate(['/create']);
   }
 
-  add() {
-    this.geolocationService.updateLocation();
-
-    if (this.echo.trim() === "") {
-      alert("Entrez un echo");
-      return;
-    }
   
-    // Dismiss the keyboard
-    let textField = <TextField>this.echoTextField.nativeElement;
-    textField.dismissSoftInput();
-
-    var newEcho = new Echo();
-    newEcho.name = this.echo;
-    newEcho.date = Date.now();
-    newEcho.latitude = this.currentLocation.latitude;
-    newEcho.longitude = this.currentLocation.longitude;
-    this.echoListService.createNewEcho(newEcho);
-  }
   
   refreshList(args) {
     var pullRefresh = args.object;
@@ -112,9 +96,9 @@ export class ListComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.echoSubscription.unsubscribe();
+    /* this.echoSubscription.unsubscribe();
+    this.echoPorteeSubscription.unsubscribe(); */
     this.locationSubscription.unsubscribe();
-    this.echoPorteeSubscription.unsubscribe();
   }
 
 }
