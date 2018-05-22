@@ -5,6 +5,5 @@ export class User {
     currentLogin: any;
     lastLogin: any;
     contacts: any;
-    constructor() {
-    }
+    constructor() {}
   }

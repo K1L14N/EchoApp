@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 22 11:27:32 CEST 2018
+#Tue May 22 11:35:17 CEST 2018
 2385.set=ASSET
 3093.file=/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/assets/F0F1F2F3/debug/app/tns_modules/tns-core-modules/ui/text-view/text-view.js
 4800.set=ANDROID_RESOURCE

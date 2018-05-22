@@ -1,4 +1,5 @@
 import { Injectable } from "@angular/core";
+import { Http, Headers, Response } from "@angular/http";
 import { Observable } from "rxjs/Observable";
 import "rxjs/add/operator/catch";
 import "rxjs/add/operator/do";
@@ -11,11 +12,9 @@ import firebaseWebApi = require('nativescript-plugin-firebase/app');
 @Injectable()
 export class UserService {
 
-  _user: User = new User();
+  private _user: User = new User();
 
-  constructor() {
-    
-  }
+  constructor(private http: Http) {}
 
   createNewUser(user: User) {
     return new Promise(
@@ -51,7 +50,6 @@ export class UserService {
 
   signOutUser() {
     firebaseWebApi.auth().signOut();
-    this._user = new User();
   }
   
   initUser() {
@@ -61,15 +59,16 @@ export class UserService {
     this._user.email = user.email;
     this._user.uid = user.uid;
     this._user.currentLogin = now;
-    this.getContacts();
-    this.getLastLogin().then(() => { this.updateUserDB() }); 
-    }
-  
+    return new Promise(
+      (resolve, reject) => {
+        this.getLastLogin().then(() => { this.updateUserDB() });
+      });
+  }
 
   updateUserDB() {
     return new Promise(
       (resolve, reject) => {
-          firebaseWebApi.database().ref('/user/' + this.getUserId()).set(this._user)
+          firebaseWebApi.database().ref('/user/' + this._user.uid).set(this._user)
           .then((data) => {
               resolve(data);
           })
@@ -82,7 +81,7 @@ export class UserService {
   getLastLogin() {
     return new Promise(
       (resolve, reject) => {
-        firebaseWebApi.database().ref('/user/' + this.getUserId() + '/currentLogin').once('value').then(
+        firebaseWebApi.database().ref('/user/' + this._user.uid + '/currentLogin').once('value').then(
           (data) => {
             this._user.lastLogin = data.val();
             console.log(JSON.stringify(data.val()));
@@ -96,47 +95,8 @@ export class UserService {
     );
   }
 
-  getUserId() {
-    return firebaseWebApi.auth().currentUser.uid;
+  getUser() {
+    return this._user;
   }
 
-  updateContacts(contacts) {
-    return new Promise(
-      (resolve, reject) => {
-          firebaseWebApi.database().ref('/user/' + this.getUserId() + '/contacts').set(contacts)
-          .then((data) => {
-              resolve(data);
-          })
-          .catch(error => {
-            reject(error);
-          });
-      });
-  }
-
-  getContactsDB() {
-    return new Promise(
-      (resolve, reject) => {
-        var contacts = [];
-        firebaseWebApi.database().ref('/user/' + this.getUserId() + '/contacts')
-          .on('value', (data) => {
-            if (data.val()) {
-              data.val().forEach((element) => {
-              contacts.push(element);
-            })
-            resolve(contacts);
-            }
-          })
-      });
-    }
-
-  getContacts() {
-    return new Promise(
-      (resolve, reject) => {
-        this.getContactsDB().then((args) => {
-        this._user.contacts = args;
-        resolve(args);
-      })
-      }
-    );
-  }
 }
