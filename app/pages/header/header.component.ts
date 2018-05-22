@@ -84,6 +84,14 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 						curve: 'linear'
 				}});
 					//console.log('5');					
+				} else if (this.router.isActive('/create', true)) {
+					data.cancel = true;
+					this.routerExtensions.navigate(['/list'], { transition: {
+						name: 'flip',
+						duration: 1000,
+						curve: 'linear'
+				}});
+					//console.log('6');					
 				} else { //list/view/:id
 					data.cancel = true;
 					this.routerExtensions.navigate(['/list'], { transition: {

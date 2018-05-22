@@ -81,7 +81,7 @@ export class ListComponent implements OnInit, OnDestroy {
   }
 
   onTapAdd() {
-    //this.router.navigate(['/create']);
+    this.router.navigate(['/create']);
   }
 
   add() {
