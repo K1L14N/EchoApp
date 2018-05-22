@@ -2,5 +2,9 @@
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

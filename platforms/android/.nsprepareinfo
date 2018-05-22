@@ -1,9 +1,9 @@
 {
-	"time": "Tue May 22 2018 12:21:04 GMT+0200 (CEST)",
+	"time": "Tue May 22 2018 12:38:01 GMT+0200 (CEST)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
 	"changesRequireBuild": false,
 	"projectFileHash": "1cd96a25f5df589d56eab70fcdedaec50d6e51d9566974e6794cec157b6bb017",
-	"changesRequireBuildTime": "Tue May 22 2018 11:28:21 GMT+0200 (CEST)"
+	"changesRequireBuildTime": "Tue May 22 2018 12:22:28 GMT+0200 (CEST)"
 }

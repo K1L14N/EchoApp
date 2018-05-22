@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs/Subscription';
 export class EchoListService implements OnInit {
 
   echos: Echo[] = [];
-  echosPortee : Echo[] = [];
+  echosPortee : any = [];
   echosSubject = new Subject<Echo[]>();
   echosPorteeSubject = new Subject<Echo[]>();
 
@@ -47,39 +47,44 @@ export class EchoListService implements OnInit {
   }
 
   getEchos() {
-    if (firebaseWebApi.database().ref('/msg')) {
-      firebaseWebApi.database().ref('/msg')
-        .on('value', (data) => {
-          this.echosPortee = [];
-          if (data.val()) {
-            console.log('______________________');
-            data.val().forEach(element => {
-              if (element) { // database non vide
-                // location de l'écho lorsqu'il a été émis
-                let msgLocation: Location = new Location();
-                msgLocation.latitude = element.latitude;
-                msgLocation.longitude = element.longitude;
-                this.geolocationService.getDeviceLocation().then(result => {
-                  // location actuelle de l'utilisateur
-                  let userLocation: Location = new Location();
-                  userLocation.latitude = result.latitude;
-                  userLocation.longitude = result.longitude;
-                  // distance (Castel - Palo Alto : 9433120 mètres)
-                  let distance = geoLocation.distance(msgLocation, userLocation);
-                  console.log('distance : ' + element.name + ' : ' + distance);
-                  if (distance < this.portee) {
-                    this.echosPortee.push(element);
+    return new Promise(
+      (resolve, reject) => {
+        if (firebaseWebApi.database().ref('/msg')) {
+          firebaseWebApi.database().ref('/msg')
+            .on('value', (data) => {
+              this.echosPortee = [];
+              if (data.val()) {
+                console.log('______________________');
+                data.val().forEach(element => {
+                  if (element) { // database non vide
+                    // location de l'écho lorsqu'il a été émis
+                    let msgLocation: Location = new Location();
+                    msgLocation.latitude = element.latitude;
+                    msgLocation.longitude = element.longitude;
+                    this.geolocationService.getDeviceLocation().then(result => {
+                      // location actuelle de l'utilisateur
+                      let userLocation: Location = new Location();
+                      userLocation.latitude = result.latitude;
+                      userLocation.longitude = result.longitude;
+                      // distance (Castel - Palo Alto : 9433120 mètres)
+                      let distance = geoLocation.distance(msgLocation, userLocation);
+                      console.log('distance : ' + element.name + ' : ' + distance);
+                      if (distance < this.portee) {
+                        this.echosPortee.push(element);
+                      }
+                    }).then(() => {
+                      this.emitEchosPortee();
+                      resolve(this.echosPortee);
+                    });
                   }
-                }).then(() => {
-                  this.emitEchosPortee();
-                });
+               });
               }
-           });
+              this.echos = data.val() ? data.val() : [];
+              this.emitEchos();
+            });
           }
-          this.echos = data.val() ? data.val() : [];
-          this.emitEchos();
-        });
-      }
+      })
+    
   }
 
   createNewEcho(newEcho: Echo) {

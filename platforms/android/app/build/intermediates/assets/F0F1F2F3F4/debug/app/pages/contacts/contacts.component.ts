@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ContactsService } from '../../services/contacts.service';
 import { UserService } from '../../services/user.service';
 
@@ -10,22 +10,16 @@ import { UserService } from '../../services/user.service';
 	styleUrls: ['./contacts.component.css']
 })
 
-export class ContactsComponent implements OnInit, AfterViewInit {
+export class ContactsComponent implements OnInit {
 
-	contacts: any = [];
+	contacts = [];
 	present: Boolean = false;
 
 	constructor(
 		private contactsService: ContactsService,
 		private userService: UserService) {	}
 
-	ngOnInit() { 
-		this.showContacts();
-	}
-
-	ngAfterViewInit() {
-		this.userService.getContacts();
-	}
+	ngOnInit() { }
 
 	findContacts() {
 		this.contactsService.selectContactToAdd()
@@ -37,6 +31,8 @@ export class ContactsComponent implements OnInit, AfterViewInit {
 			})
 			if (!this.present) {
 				this.contacts.push(this.contactsService.newContact);
+				console.log(this.contacts);
+
 			} else {
 				alert("Ce contact est déjà présent dans la liste");
 				console.log("Déjà présent dans la liste");
@@ -45,21 +41,4 @@ export class ContactsComponent implements OnInit, AfterViewInit {
 		})
 	}
 
-	delete(contact) {
-		let index = this.contacts.indexOf(contact);
-		this.contacts.splice(index, 1);	
-	}
-
-	save() {
-		this.userService.updateContacts(this.contacts);
-	}
-
-	showContacts() {
-		this.userService.getContacts()
-			.then((args) => { 
-				this.contacts = args;
-				console.log(this.contacts);
-			})
-
-	}
 }

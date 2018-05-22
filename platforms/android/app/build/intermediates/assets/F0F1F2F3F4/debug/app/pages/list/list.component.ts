@@ -27,7 +27,7 @@ export class ListComponent implements OnInit, OnDestroy {
   currentLocation: Location;
 
   echoList: Echo[] = [];
-  echoListPortee: Echo[] = [];
+  echoListPortee: any = [];
 
   echoSubscription: Subscription;
   echoPorteeSubscription: Subscription;
@@ -70,13 +70,18 @@ export class ListComponent implements OnInit, OnDestroy {
     this.echoListService.emitEchos();
 
     // charge les echos
-    this.echoListService.getEchos();
+    this.echoListService.getEchos()
+    .then((args) => { this.echoListPortee = args;})
 
     
   }
 
   onViewEcho(idEcho) {
     this.router.navigate(['/list', 'view', idEcho]);
+  }
+
+  onTapAdd() {
+    //this.router.navigate(['/create']);
   }
 
   add() {
