@@ -7,7 +7,7 @@ import { TimeAgoPipe } from 'time-ago-pipe';
 
 import { AppComponent } from "./app.component";
 import { routes, navigatableComponents } from "./app.routing";
-
+import { AuthGuard } from './auth.guard';
 import firebase = require('nativescript-plugin-firebase');
 import { EchoListService } from "./services/echo-list.service";
 import { UserService } from "./services/user.service";
@@ -16,6 +16,7 @@ import { NativeScriptUISideDrawerModule } from 'nativescript-ui-sidedrawer/angul
 import { HeaderComponent } from './pages/header/header.component';
 import { NativeScriptCommonModule } from 'nativescript-angular/common';
 import { CreateComponent } from './pages/create/create.component';
+import { BackendService } from './services/backend.service';
 
 firebase
   .init({
@@ -44,6 +45,6 @@ firebase
   ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],
-  providers: [EchoListService, UserService, GeolocationService]
+  providers: [EchoListService, UserService, GeolocationService, AuthGuard, BackendService]
 })
 export class AppModule { }

@@ -1,11 +1,13 @@
 
 <TabView>
-        <StackLayout row="*, auto, auto" colums="*" *tabItem="{title: 'Générateur'}" class="TabView">
+        <StackLayout row="*, auto, auto, auto" colums="*" *tabItem="{title: 'Générateur'}" class="TabView">
 
-            <TextView row="0" #echoTextField [(ngModel)]="echo" style="margin-top: 15px" borderColor="#DEDEDE" borderWidth="1" height="500px" hint="Coder un signal"  returnKeyType="send" class="input input-border" (returnPress)="add()"></TextView>
+            <TextView row="0" #echoTextField [(ngModel)]="echo" style="margin-top: 30px; margin-left: 30px; margin-right: 30px; margin-bottom: 30px" borderColor="#DEDEDE" borderWidth="1" height="500px" hint="Coder un signal"  returnKeyType="send" class="input input-border" (returnPress)="add()"></TextView>
 <!--                 <TextField row="0" #echoTextField [(ngModel)]="echo" hint="Coder un signal" textWrap="false" (returnPress)="add()"></TextField> -->
-                <Image row="1" src="res://add" height="500px" stretch="none" verticalAlignment="center" horizontalAlignment="center"></Image>
-                <Button row="2" text="Envoyer" verticalAlignment="bottom" class="btn btn-danger" (tap)="add()"></Button>
+                <Image *ngIf="image == null" row="1" src="res://add" height="900px" stretch="none" verticalAlignment="center" horizontalAlignment="center" (tap)="takePicture()"></Image>
+                <Image *ngIf="imageSrc != null" row="1" [src]="imageSrc" height="900px" stretch="none" verticalAlignment="center" horizontalAlignment="center" (tap)="takePicture()"></Image>
+                <Button *ngIf="imageSrc != null" row="2" text="Supprimer l'image" (tap)="onTapDelete()" class="btn btn-primary"></Button>
+                <Button row="3" text="Envoyer" verticalAlignment="bottom" class="btn btn-danger" (tap)="add()"></Button>
 
         </StackLayout>
         <StackLayout *tabItem="{title: 'Réglages'}" class="TabView">

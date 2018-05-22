@@ -28,6 +28,7 @@ export class ListComponent implements OnInit, OnDestroy {
   currentLocation: Location;
   echoList: Echo[] = [];
   echoListPortee: any = [];
+  event: any;
 /* 
   echoSubscription: Subscription;
   echoPorteeSubscription: Subscription; */
@@ -38,11 +39,7 @@ export class ListComponent implements OnInit, OnDestroy {
     private page: Page,
     private router: Router,
     private geolocationService: GeolocationService) {
-      setTimeout(() => {
-        this.echoListService.getEchos().then(() => {
-          this.echoListPortee = this.echoListService.echosPortee;
-        })
-      }, 1000);
+  
     }
 
   ngOnInit() {
@@ -75,7 +72,7 @@ export class ListComponent implements OnInit, OnDestroy {
     // charge les echos
     this.echoListService.getEchos()
     .then((args) => { this.echoListPortee = []; this.echoListPortee = args;})
-
+  this.refreshList(this.event);
   }
 
   onViewEcho(idEcho) {

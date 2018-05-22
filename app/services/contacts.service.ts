@@ -12,13 +12,20 @@ export class ContactsService {
     constructor() { }
 
     reqPerm() {
-        permissions.requestPermission(android.Manifest.permission.READ_CONTACTS, android.Manifest.permission.WRITE_CONTACTS, "I need these permissions because I'm cool")
-        .then(function() {
-            console.log("Woo Hoo, I have the power!");
-        })
-        .catch(function() {
-            console.log("Uh oh, no permissions - plan B time!");
-        });
+        return new Promise(
+            (resolve, reject) => {
+                permissions.requestPermission(android.Manifest.permission.READ_CONTACTS, android.Manifest.permission.WRITE_CONTACTS, "I need these permissions because I'm cool")
+                .then(function() {
+                    console.log("Woo Hoo, I have the power!");
+                    resolve();
+                })
+                .catch(function() {
+                    console.log("Uh oh, no permissions - plan B time!");
+                    reject();
+                });
+            }
+        )
+        
     }
 
     selectContactToAdd() {

@@ -7,6 +7,11 @@ import { Page } from "ui/page";
 import { Router } from "@angular/router";
 import { Subscription } from 'rxjs/Subscription';
 import { Location } from 'nativescript-geolocation';
+import * as firebaseWebApi from 'nativescript-plugin-firebase';
+import * as camera from "nativescript-camera";
+import { Image } from "ui/image";
+import * as dialogs from "ui/dialogs";
+import * as enums from 'ui/enums';
 
 @Component({
 	selector: 'create',
@@ -22,6 +27,8 @@ export class CreateComponent implements OnInit {
   currentLocation: Location;
 	echo = "";
   @ViewChild("echoTextField") echoTextField: ElementRef;
+	image: Image;
+	imageSrc: string;
 
 	constructor(
 		private echoListService: EchoListService,
@@ -29,7 +36,9 @@ export class CreateComponent implements OnInit {
 		private page: Page,
 		private router: Router) { }
 
-	ngOnInit() { }
+	ngOnInit() { 
+		camera.requestPermissions();
+	}
 
 	add() {
 		if (this.echo.trim() === "") {
@@ -50,9 +59,56 @@ export class CreateComponent implements OnInit {
 		newEcho.date = Date.now();
 		newEcho.latitude = this.currentLocation.latitude;
 		newEcho.longitude = this.currentLocation.longitude;
-		this.echoListService.getEchos().then(() => {
-			this.echoListService.createNewEcho(newEcho);
-			this.router.navigate(['/list']);
+
+		if (this.imageSrc) {
+			this.echoListService.uploadFile(this.imageSrc)
+			.then((urlPicture) => {
+				newEcho.img = urlPicture;
+				this.echoListService.getEchos().then(() => {
+					this.echoListService.createNewEcho(newEcho);
+					this.router.navigate(['/list']);
+				});
+			});
+		} else {
+			this.echoListService.getEchos().then(() => {
+				this.echoListService.createNewEcho(newEcho);
+				this.router.navigate(['/list']);
+			});
+		}
+	}
+
+
+	onTapDelete() {
+		dialogs.confirm({
+			title: "Vous allez perdre l'image",
+			message: "Confirmer ?",
+			okButtonText: "Oui",
+			cancelButtonText: "Annuler"
+		}).then(result => {
+			// result argument is boolean
+			console.log("Dialog result: " + result);
+			if (result) { // je ne veux pas quitter
+				this.image = null;
+				this.imageSrc = null;
+			}
 		});
-	  }
+	}
+
+	takePicture() {
+		var options = {
+			width: 500,
+			keepAspectRatio: true,
+			saveToGallery: true
+		};
+    camera.takePicture(options)
+    .then((imageAsset) => {
+        console.log("Result is an image asset instance");
+        this.image = new Image();
+				this.image.src = imageAsset;
+				this.imageSrc = this.image.src._android;
+				//console.log(this.imageSrc);
+    }).catch((err) => {
+        console.log("Error -> " + err.message);
+    });
+  }
 }
