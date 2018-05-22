@@ -1,6 +1,10 @@
 export class User {
     email: string;
     password: string;
-    id: number;
-    constructor() {}
+    uid: string;
+    currentLogin: any;
+    lastLogin: any;
+    contacts: any;
+    constructor() {
+    }
   }

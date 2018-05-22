@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/layout-v21/notification_template_icon_group.xml"
     },
@@ -14,5 +18,17 @@
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/layout-v21/notification_action.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/layout-v21/notification_template_icon_group.xml"
     }
 ]

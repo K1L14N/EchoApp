@@ -1,7 +1,7 @@
     <Page xmlns="http://schemas.nativescript.org/tns.xsd">
 
         <ActionBar>
-            <NavigationButton icon="res://slider" (tap)="toggleDrawer()"></NavigationButton>
+            <NavigationButton icon="res://menu" (tap)="toggleDrawer()"></NavigationButton>
         </ActionBar>
 
         <RadSideDrawer #sidedrawerId tkExampleTitle tkToggleNavButton>
@@ -18,7 +18,7 @@
             </StackLayout>
             <Button text="Close Drawer" color="white" padding="10" style="align-self: center" (tap)="onCloseDrawerTap()"></Button>
           </StackLayout>
-      
+
           <StackLayout tkMainContent>
             <router-outlet></router-outlet>
           </StackLayout>

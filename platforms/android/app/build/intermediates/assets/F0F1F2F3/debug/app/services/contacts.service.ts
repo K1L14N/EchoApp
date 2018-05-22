@@ -7,7 +7,7 @@ var permissions = require("nativescript-permissions");
 @Injectable()
 export class ContactsService {
 
-    newContact: string;
+    newContact: String;
 
     constructor() { }
 
@@ -22,7 +22,7 @@ export class ContactsService {
     }
 
     selectContactToAdd() {
-        contacts.getContact().then((args) => {
+        return contacts.getContact().then((args) => {
     /// Returns args:
     /// args.data: Generic cross platform JSON object
     /// args.reponse: "selected" or "cancelled" depending on wheter the user selected a contact. 
@@ -34,11 +34,12 @@ export class ContactsService {
             // console.log(JSON.stringify(contact));
             if (contact.emailAddresses[0].value) {
                 this.newContact = contact.emailAddresses[0].value;
+                //console.log("contact du service : " + this.newContact);
+                
             } else {
-                console.log('Pas d\'email associé à ce contact');
+                //console.log('Pas d\'email associé à ce contact');
                 alert('Pas d\'email associé à ce contact');
             }
-            
         }
         });
     }

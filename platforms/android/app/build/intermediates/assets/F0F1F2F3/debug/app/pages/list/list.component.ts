@@ -43,6 +43,7 @@ export class ListComponent implements OnInit, OnDestroy {
     private geolocationService: GeolocationService) { }
 
   ngOnInit() {
+    this.userService.initUser();
     // en cas d'update de Location
     this.locationSubscription = this.geolocationService.locationSubject.subscribe(
       (location: Location) => {
