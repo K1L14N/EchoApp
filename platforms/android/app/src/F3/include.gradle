@@ -1,14 +1,33 @@
 android {
-	productFlavors {
-		"nativescript-ui-listview" {
-			dimension "nativescript-ui-listview"
-		}
-	}
+    defaultConfig {
+        multiDexEnabled true
+    }
+
+    productFlavors {
+        "nativescript-push-notifications" {
+            dimension "nativescript-push-notifications"
+        }
+    }
 }
 
-def supportVersion = project.hasProperty("supportVersion") ? project.supportVersion : "23.3.0"
-
 dependencies {
-	compile "com.android.support:appcompat-v7:$supportVersion"
-	compile "com.android.support:recyclerview-v7:$supportVersion"
+    def firebaseMessagingVersion = project.hasProperty('firebaseMessagingVersion') ? project.firebaseMessagingVersion : '12.0.1'
+    def supportVer = project.hasProperty("supportVersion") ? supportVersion : "25.1.0";
+
+    compile "com.android.support:appcompat-v7:$supportVer"
+    compile "com.google.firebase:firebase-messaging:$firebaseMessagingVersion"
+    compile "com.android.support:multidex:1.0.1"
+}
+
+task copyGoogleServicesJson {
+    description "Copies the mandatory google-services.json from App_Resources/Android folder."
+
+    def path = "$projectDir/../../app/App_Resources/Android/google-services.json" 
+    def servicesFile = file(path)
+    if(servicesFile.exists()) {
+        copy {
+            from path
+            into "$projectDir"
+        }
+    }
 }

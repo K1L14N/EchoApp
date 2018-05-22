@@ -11,7 +11,7 @@ import { Location } from 'nativescript-geolocation';
 import { Observable } from "data/observable";
 import { registerElement } from "nativescript-angular/element-registry";
 registerElement("PullToRefresh", () => require("nativescript-pulltorefresh").PullToRefresh);
-
+registerElement("Fab", () => require("nativescript-floatingactionbutton").Fab); //Floating button https://github.com/bradmartin/nativescript-floatingactionbutton
 const firebase = require("nativescript-plugin-firebase");
 
 
@@ -27,7 +27,7 @@ export class ListComponent implements OnInit, OnDestroy {
   currentLocation: Location;
 
   echoList: Echo[] = [];
-  echoListPortee: Echo[] = [];
+  echoListPortee: any = [];
 
   echoSubscription: Subscription;
   echoPorteeSubscription: Subscription;
@@ -70,13 +70,18 @@ export class ListComponent implements OnInit, OnDestroy {
     this.echoListService.emitEchos();
 
     // charge les echos
-    this.echoListService.getEchos();
+    this.echoListService.getEchos()
+    .then((args) => { this.echoListPortee = args;})
 
     
   }
 
   onViewEcho(idEcho) {
     this.router.navigate(['/list', 'view', idEcho]);
+  }
+
+  onTapAdd() {
+    //this.router.navigate(['/create']);
   }
 
   add() {

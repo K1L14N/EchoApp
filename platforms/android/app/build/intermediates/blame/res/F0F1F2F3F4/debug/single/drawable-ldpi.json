@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-ldpi/background.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-ldpi/background.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-ldpi/logo.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-ldpi/logo.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-ldpi/ic_add_white.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-ldpi/ic_add_white.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-ldpi/icon.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-ldpi/icon.png"
+    }
+]

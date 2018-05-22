@@ -10,6 +10,7 @@
     "@angular/router": true,
     "nativescript-angular": true,
     "nativescript-contacts": true,
+    "nativescript-floatingactionbutton": true,
     "nativescript-geolocation": true,
     "nativescript-permissions": true,
     "nativescript-plugin-firebase": true,

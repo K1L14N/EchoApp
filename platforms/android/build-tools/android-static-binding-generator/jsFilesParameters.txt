@@ -182,6 +182,8 @@
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-contacts/group-model.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-contacts/getAllContacts.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-contacts/known-label.js
+/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-floatingactionbutton/fab.js
+/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-floatingactionbutton/fab-common.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/schema-registry.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/resource-loader.js
 /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/dom-adapter.js

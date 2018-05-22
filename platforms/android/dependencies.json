@@ -4,6 +4,10 @@
         "directory": "../../node_modules/nativescript-angular"
     },
     {
+        "name": "nativescript-floatingactionbutton",
+        "directory": "../../node_modules/nativescript-floatingactionbutton"
+    },
+    {
         "name": "nativescript-geolocation",
         "directory": "../../node_modules/nativescript-geolocation"
     },
