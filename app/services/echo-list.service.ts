@@ -1,4 +1,4 @@
-import { Injectable, OnInit, OnDestroy } from '@angular/core';
+import { Injectable, OnInit, OnDestroy, NgZone } from '@angular/core';
 import { Echo } from "../models/echo";
 import firebaseWebApi = require('nativescript-plugin-firebase/app');
 import { Subject } from 'rxjs/Subject';
@@ -6,6 +6,13 @@ import { GeolocationService } from './geolocation.service';
 import * as geoLocation from "nativescript-geolocation";
 import { Location } from "nativescript-geolocation";
 import { Subscription } from 'rxjs/Subscription';
+import firebase = require("nativescript-plugin-firebase");
+import { BackendService } from './backend.service';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/share';
+import { UserService } from './user.service';
+var fs = require("file-system");
+var appPath = fs.knownFolders.currentApp().path;
 
 @Injectable()
 export class EchoListService implements OnInit {
@@ -17,11 +24,14 @@ export class EchoListService implements OnInit {
 
   portee: number = 10000; // 10 kilomètres de portée
 
-  constructor(private geolocationService: GeolocationService) {}
+
+  constructor(
+      private geolocationService: GeolocationService,
+      private userService: UserService) {}
 
   ngOnInit() {
     this.geolocationService.updateLocation();
-    firebaseWebApi.database().ref('/msg');
+    //firebaseWebApi.database().ref('/msg');
   }
 
   emitEchos() {
@@ -107,5 +117,29 @@ export class EchoListService implements OnInit {
       }
     );
   }
+
+  uploadFile(localPath: string) {
+    return new Promise(
+      (resolve, reject) => {
+        let filename = this.userService.getUserId() + Date.now().toString();
+        let remotePath = `${filename}`;
+        return firebase.uploadFile({
+          remoteFullPath: remotePath, // sur quel noeud de firebase je l'envoi
+          localFullPath: localPath, // ou je cherche l'image
+          onProgress: function(status) {
+              console.log("Uploaded fraction: " + status.fractionCompleted);
+              console.log("Percentage complete: " + status.percentageCompleted);
+          }
+        }).then(
+          (uploadedFile) => {
+            resolve(uploadedFile);
+          }, (error) => {
+            reject(error);
+          }
+        )
+      }
+    ) 
+  }
+
 }
 

@@ -20,7 +20,8 @@ export class ContactsComponent implements OnInit, AfterViewInit {
 		private userService: UserService) {	}
 
 	ngOnInit() { 
-		this.showContacts();
+		this.contactsService.reqPerm()
+		.then(() => { this.showContacts(); });
 	}
 
 	ngAfterViewInit() {

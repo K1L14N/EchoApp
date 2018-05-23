@@ -40,7 +40,6 @@ export class LoginComponent implements OnInit {
     this.page.actionBarHidden = true;
     //this.page.backgroundImage = "res://bg_login";
     this.geolocationService.updateLocation();
-    this.contactsService.reqPerm();
   }
 
   submit() {
