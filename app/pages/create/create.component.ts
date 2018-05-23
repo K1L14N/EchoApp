@@ -60,7 +60,7 @@ export class CreateComponent implements OnInit {
 		newEcho.latitude = this.currentLocation.latitude;
 		newEcho.longitude = this.currentLocation.longitude;
 
-		if (this.imageSrc) {
+		if (this.imageSrc) { // image associé à l'ECHO
 			this.echoListService.uploadFile(this.imageSrc)
 			.then((urlPicture) => {
 				newEcho.img = urlPicture;
@@ -69,7 +69,7 @@ export class CreateComponent implements OnInit {
 					this.router.navigate(['/list']);
 				});
 			});
-		} else {
+		} else { // ECHO sans image
 			this.echoListService.getEchos().then(() => {
 				this.echoListService.createNewEcho(newEcho);
 				this.router.navigate(['/list']);

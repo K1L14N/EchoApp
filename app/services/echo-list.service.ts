@@ -7,10 +7,10 @@ import * as geoLocation from "nativescript-geolocation";
 import { Location } from "nativescript-geolocation";
 import { Subscription } from 'rxjs/Subscription';
 import firebase = require("nativescript-plugin-firebase");
-import { BackendService } from './backend.service';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/share';
 import { UserService } from './user.service';
+import { identity } from '../../platforms/android/app/src/main/assets/app/tns_modules/rxjs/src/util/identity';
 var fs = require("file-system");
 var appPath = fs.knownFolders.currentApp().path;
 
@@ -19,8 +19,8 @@ export class EchoListService implements OnInit {
 
   echos: Echo[] = [];
   echosPortee : any = [];
-  echosSubject = new Subject<Echo[]>();
-  echosPorteeSubject = new Subject<Echo[]>();
+  /* echosSubject = new Subject<Echo[]>();
+  echosPorteeSubject = new Subject<Echo[]>(); */
 
   portee: number = 10000; // 10 kilomètres de portée
 
@@ -31,39 +31,86 @@ export class EchoListService implements OnInit {
 
   ngOnInit() {
     this.geolocationService.updateLocation();
-    //firebaseWebApi.database().ref('/msg');
+    firebaseWebApi.database().ref('/msg');
   }
 
   emitEchos() {
-    this.echosSubject.next(this.echos);
+    //this.echosSubject.next(this.echos);
   }
 
   emitEchosPortee() {
-    this.echosPorteeSubject.next(this.echosPortee);
+    //this.echosPorteeSubject.next(this.echosPortee);
   }
   saveEchos() {
     firebaseWebApi.database().ref('/msg').set(this.echos);
   }
 
-  removeExpiratedEcho(id) {
-    if (firebaseWebApi.database().ref('/msg/' + id)) {
-      var msgRef = firebaseWebApi.database().ref('/msg/' + id);
-    msgRef.remove()
-      .then(() => { console.log('Remove succeeded');
-      })
-      .catch((error) => { console.log('Remove failed : ' + error);
-      });
-    }
+  getExpiredEcho() {
+    return new Promise(
+      (resolve, reject) => {
+        let ids: Array<number> = [];
+        let currentTime = Date.now();
+        let timeout = 30000; //30 secondes
+        if (firebaseWebApi.database().ref('/msg')) {
+          firebaseWebApi.database().ref('/msg')
+            .on('value', (data) => {
+              if (data.val()) {
+                let compteur = 0;
+                data.val().forEach(element => {
+                  /* console.log("current time : " + currentTime);
+                  console.log("echo time : " + element.date);
+                  console.log("différence : " + (currentTime - element.date)); */
+                  if(element != null) {
+                    if((currentTime - element.date > timeout)) {
+                    console.log('Echo removed : ' + JSON.stringify(element));
+                    ids.push(compteur);
+                    }
+                    compteur++;
+                  }
+                  
+                });
+                resolve(ids);
+              }
+            });
+      }}
+    );
+  }
+
+  removeExpiredEcho() {
+    return new Promise(
+      (resolve, reject) => {
+        this.getExpiredEcho().then((ids) => {
+          if (ids) {
+            let idsToRemove = JSON.stringify(ids);
+            let i = JSON.parse(idsToRemove);
+            i.forEach(id => {
+              firebaseWebApi.database().ref('/msg/' + id).remove()
+                .then(() => {console.log('Remove succeeded');
+                resolve();
+              })
+                .catch((error) => { console.log('Remove failed : ' + error);
+                reject(error);
+              })
+            });
+          }
+        });
+      }
+    )
+    
   }
 
   getEchos() {
     return new Promise(
       (resolve, reject) => {
         if (firebaseWebApi.database().ref('/msg')) {
+          this.echosPortee = [];
           firebaseWebApi.database().ref('/msg')
             .on('value', (data) => {
-              this.echosPortee = [];
-              if (data.val()) {
+              
+              if (data.val() == null) { // pas de msg dans la DB
+                this.echos = [];
+                resolve(this.echos);
+              } else { // msg dans la DB
                 console.log('______________________');
                 data.val().forEach(element => {
                   if (element) { // database non vide
@@ -76,7 +123,7 @@ export class EchoListService implements OnInit {
                       let userLocation: Location = new Location();
                       userLocation.latitude = result.latitude;
                       userLocation.longitude = result.longitude;
-                      // distance (Castel - Palo Alto : 9433120 mètres)
+                      // distance (Tel - Palo Alto : 943XXXX mètres)
                       let distance = geoLocation.distance(msgLocation, userLocation);
                       console.log('distance : ' + element.name + ' : ' + distance);
                       if (distance < this.portee) {
@@ -89,7 +136,12 @@ export class EchoListService implements OnInit {
                   }
                });
               }
-              this.echos = data.val() ? data.val() : [];
+              if (data.val()) {
+                this.echos = data.val();
+              } else {
+                this.echos = [];
+              }
+              //this.echos = data.val() ? data.val() : [];
               this.emitEchos();
             });
           }
@@ -100,8 +152,8 @@ export class EchoListService implements OnInit {
   createNewEcho(newEcho: Echo) {
     this.echos.unshift(newEcho);
     this.saveEchos();
-    this.emitEchos();
-    this.emitEchosPortee();
+    /* this.emitEchos();
+    this.emitEchosPortee(); */
   }
 
   getEcho(idEcho) {
