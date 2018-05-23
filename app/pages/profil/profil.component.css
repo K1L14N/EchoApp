@@ -1,3 +1,9 @@
-.profil {
-
+.about {
+  margin-left: 16;
+  margin-right: 16;
+  margin-bottom: 10;
+  font-family: 'Roboto Medium';
+  font-size: 24;
+  horizontal-align: center;
+  color: darkcyan;
 }

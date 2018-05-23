@@ -24,7 +24,7 @@ export class ProfilComponent implements OnInit {
     this.userService.getLastLogin().then((data) => {
 			let lastco1 = JSON.stringify(data);
       let lastco2 = JSON.parse(lastco1);
-      this.LLogin = "Derniere connexion le "+lastco2[0]+" "+lastco2[1]+" a "+lastco2[4]+" : "+lastco2[3]+" : "+lastco2[3];
+      this.LLogin = "Derniere connexion le "+lastco2.day+"/0"+(lastco2.month+1)+" à "+lastco2.hours+" : "+lastco2.minutes;
     });
 
   }
