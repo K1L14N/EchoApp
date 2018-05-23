@@ -16,7 +16,6 @@ import { NativeScriptUISideDrawerModule } from 'nativescript-ui-sidedrawer/angul
 import { HeaderComponent } from './pages/header/header.component';
 import { NativeScriptCommonModule } from 'nativescript-angular/common';
 import { CreateComponent } from './pages/create/create.component';
-import { BackendService } from './services/backend.service';
 
 firebase
   .init({
@@ -45,6 +44,6 @@ firebase
   ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],
-  providers: [EchoListService, UserService, GeolocationService, AuthGuard, BackendService]
+  providers: [EchoListService, UserService, GeolocationService, AuthGuard]
 })
 export class AppModule { }

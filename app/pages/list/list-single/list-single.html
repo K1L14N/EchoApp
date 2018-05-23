@@ -1,24 +1,19 @@
-<!-- <ActionBar title="Home" class="action-bar">
-</ActionBar>
 
-<ScrollView class="page">
-	<StackLayout class="home-panel">
-		<Label textWrap="true" [text]="'echo : ' + echo.name + ', date : ' + echo.date " class="h2 description-label"></Label>
-	</StackLayout>
-</ScrollView> -->
 
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-ui-listview" loaded="pageLoaded">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+xmlns:PullRefresh="nativescript-pulltorefresh"
+loaded="pageLoaded">
 
-    <lv:RadListView id="listview" class="list-group"> 
-        <lv:RadListView.listViewLayout>
-            <lv:ListViewLinearLayout scrollDirection="Vertical"/>
-        </lv:RadListView.listViewLayout>
-        <lv:RadListView.itemTemplate>
-            <StackLayout class="list-group-item">
-                <Label [text]="echo.name" class="list-group-item-heading" />
-                <Label [text]="echo.date | timeAgo" textWrap="true" class="list-group-item-text" />
-            </StackLayout>
-        </lv:RadListView.itemTemplate>
-    </lv:RadListView>
+  <GridLayout rows="*, auto" columns="*">
+    <PullToRefresh (refresh)="refreshList($event)" $event="event">
+        <StackLayout row="0" class="list-group">
+            <Label [text]="echo.date | timeAgo" textWrap="true" class="time"></Label>
+            <Label [text]="echo.name" class="main"></Label>
+            <Image *ngIf="echo.img != null && showImage == true" [src]="echo.img.url" height="auto" stretch="none" verticalAlignment="center" horizontalAlignment="center" (tap)="toggleShowImg()"></Image>
+            <Button *ngIf="showImage == false" text="Spoiler" (tap)="toggleShowImg()" background-color="cyan" ></Button>
+        </StackLayout>
+    </PullToRefresh>
+    <FAB (tap)="onTapAdd()" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button"></FAB>
+  </GridLayout>
 
 </Page>
