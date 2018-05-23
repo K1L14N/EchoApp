@@ -22,10 +22,9 @@ export class ProfilComponent implements OnInit {
   ngOnInit() {
     this._user = this.userService.getUser();
     this.userService.getLastLogin().then((data) => {
-			console.log(JSON.stringify(data))
-      var lastco = JSON.parse(JSON.stringify(data)).toString();
-      // this.LLogin = "Derniere connexion le "+lastco.day.toString()+" "+latco.month.toString()+" a "+lastco.hours.toString()+" : "+lastco.minutes.toString()+" : "+lastco.seconds.toString();
-      console.log(JSON.stringify(lastco));
+			let lastco1 = JSON.stringify(data);
+      let lastco2 = JSON.parse(lastco1);
+      this.LLogin = "Derniere connexion le "+lastco2[0]+" "+lastco2[1]+" a "+lastco2[4]+" : "+lastco2[3]+" : "+lastco2[3];
     });
 
   }
