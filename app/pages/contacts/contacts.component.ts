@@ -22,6 +22,7 @@ export class ContactsComponent implements OnInit, AfterViewInit {
 	ngOnInit() { 
 		this.contactsService.reqPerm()
 		.then(() => { this.showContacts(); });
+		this.contactsService.getContactsDB();
 	}
 
 	ngAfterViewInit() {
@@ -56,11 +57,7 @@ export class ContactsComponent implements OnInit, AfterViewInit {
 	}
 
 	showContacts() {
-		this.userService.getContacts()
-			.then((args) => { 
-				this.contacts = args;
-				console.log(this.contacts);
-			})
-
+		this.contactsService.getContactsDB();
+		this.contacts = this.contactsService.myContacts;
 	}
 }

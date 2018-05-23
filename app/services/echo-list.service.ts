@@ -17,8 +17,9 @@ var appPath = fs.knownFolders.currentApp().path;
 @Injectable()
 export class EchoListService implements OnInit {
 
+  nbMsg = 0;
   echos: Echo[] = [];
-  echosPortee : any = [];
+  echosPortee : Echo[] = [];
   /* echosSubject = new Subject<Echo[]>();
   echosPorteeSubject = new Subject<Echo[]>(); */
 
@@ -99,61 +100,115 @@ export class EchoListService implements OnInit {
     
   }
 
+  getNbEchos() {
+    this.nbMsg = 0; // re init
+    if (firebaseWebApi.database().ref('/msg')) {
+      firebaseWebApi.database().ref('/msg').on('value', (message) => {
+        if (message.val() == null) { // DB vide
+          return this.nbMsg;
+        } else { // DB non vide
+          message.val().forEach(message => {
+            if (message) {
+              this.nbMsg++;
+            }
+          })
+        }
+      })
+    } else {
+      return this.nbMsg;
+    }
+  }
+
+  pushEchos() {
+    return new Promise(
+      (resolve, reject) => {
+        let count = 0;
+        var echos = [] // re init
+        if (firebaseWebApi.database().ref('/msg')) {
+          firebaseWebApi.database().ref('/msg').on('value', (message) => {
+            if (message.val() == null) { // DB vide
+              resolve(echos);
+            } else { // DB non vide
+              message.val().forEach(message => {
+                if (message) {
+                  //console.log('message present' + JSON.stringify(message));
+                  echos.push(message);
+                  count++;
+                }
+                if (count == this.nbMsg) {
+                  resolve(echos);
+                }
+              })
+            }
+          })
+        } else {
+          resolve(echos);
+        }
+      }
+    )
+  }
+
+  setEchos(echos) {
+    return new Promise(
+      (resolve, reject) => {
+        let allEchos = JSON.stringify(echos);
+        let allEchosArray = JSON.parse(allEchos);
+        this.echos = allEchosArray;
+        resolve();
+      }
+    )
+  }
+
   getEchos() {
     return new Promise(
       (resolve, reject) => {
-        if (firebaseWebApi.database().ref('/msg')) {
+        this.getNbEchos();
+        this.pushEchos().then((echos) => {
+          this.setEchos(echos).then(() => {
+            resolve();
+          })
+        })
+      }
+    )
+  }
+
+  
+  
+  getEchosRange() {
+    return new Promise(
+      (resolve, reject) => {
+        this.getEchos().then(() => {
           this.echosPortee = [];
-          firebaseWebApi.database().ref('/msg')
-            .on('value', (data) => {
-              
-              if (data.val() == null) { // pas de msg dans la DB
-                this.echos = [];
-                resolve(this.echos);
-              } else { // msg dans la DB
-                console.log('______________________');
-                data.val().forEach(element => {
-                  if (element) { // database non vide
-                    // location de l'écho lorsqu'il a été émis
-                    let msgLocation: Location = new Location();
-                    msgLocation.latitude = element.latitude;
-                    msgLocation.longitude = element.longitude;
-                    this.geolocationService.getDeviceLocation().then(result => {
-                      // location actuelle de l'utilisateur
-                      let userLocation: Location = new Location();
-                      userLocation.latitude = result.latitude;
-                      userLocation.longitude = result.longitude;
-                      // distance (Tel - Palo Alto : 943XXXX mètres)
-                      let distance = geoLocation.distance(msgLocation, userLocation);
-                      console.log('distance : ' + element.name + ' : ' + distance);
-                      if (distance < this.portee) {
-                        this.echosPortee.push(element);
-                      }
-                    }).then(() => {
-                      this.emitEchosPortee();
-                      resolve(this.echosPortee);
-                    });
-                  }
-               });
-              }
-              if (data.val()) {
-                this.echos = data.val();
-              } else {
-                this.echos = [];
-              }
-              //this.echos = data.val() ? data.val() : [];
-              this.emitEchos();
-            });
-          }
+          let echos = this.echos;
+          echos.forEach(echo => {
+            this.echosPortee.push(this.compareDistance(echo, this.geolocationService.location));
+          });
+          resolve();
+        })
       })
-    
+  }
+
+  compareDistance(element, usrLocation) {
+    let msgLocation: Location = new Location();
+    msgLocation.latitude = element.latitude;
+    msgLocation.longitude = element.longitude;
+    let userLocation: Location = new Location();
+    userLocation.latitude = usrLocation.latitude;
+    userLocation.longitude = usrLocation.longitude;
+    let distance = geoLocation.distance(msgLocation, userLocation);
+    if (distance < this.portee) {
+      return element;
+    }
   }
 
   createNewEcho(newEcho: Echo) {
     this.echos.unshift(newEcho);
+    this.echosPortee.unshift(newEcho);
+    
     this.saveEchos();
-    /* this.emitEchos();
-    this.emitEchosPortee(); */
+    this.emitEchos();
+    this.emitEchosPortee();
+    
   }
 
   getEcho(idEcho) {

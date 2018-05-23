@@ -29,14 +29,18 @@ export class CreateComponent implements OnInit {
   @ViewChild("echoTextField") echoTextField: ElementRef;
 	image: Image;
 	imageSrc: string;
-
+model:any;
+	
 	constructor(
 		private echoListService: EchoListService,
 		private geolocationService: GeolocationService,
 		private page: Page,
-		private router: Router) { }
+		private router: Router) {
+			
+		 }
 
 	ngOnInit() { 
+		this.model  = "This is a texte";
 		camera.requestPermissions();
 	}
 

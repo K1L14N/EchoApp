@@ -1,4 +1,7 @@
 import { Injectable } from '@angular/core';
+import * as firebaseWebApi from 'nativescript-plugin-firebase/app';
+import { UserService } from './user.service';
+import { User } from '../models/user';
 var contacts = require("nativescript-contacts");
 
 declare var android:any;
@@ -8,8 +11,11 @@ var permissions = require("nativescript-permissions");
 export class ContactsService {
 
     newContact: String;
+    myContacts: any = [];
 
-    constructor() { }
+    constructor(
+        private userService: UserService
+    ) { }
 
     reqPerm() {
         return new Promise(
@@ -49,6 +55,13 @@ export class ContactsService {
             }
         }
         });
+    }
+
+    getContactsDB() {
+        this.userService.getContacts()
+            .then((contacts) => {
+                this.myContacts = contacts;
+            })
     }
 
 }
