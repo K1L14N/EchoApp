@@ -1,4 +1,4 @@
-import { Injectable, OnInit, OnDestroy, NgZone } from '@angular/core';
+import { , OnInit, OnDestroy, NgZone } from '@angular/core';
 import { Echo } from "../models/echo";
 import firebaseWebApi = require('nativescript-plugin-firebase/app');
 import { Subject } from 'rxjs/Subject';
@@ -31,6 +31,7 @@ export class EchoListService implements OnInit {
       private userService: UserService) {}
 
   ngOnInit() {
+    console.log("qqqq");
     this.geolocationService.updateLocation();
     firebaseWebApi.database().ref('/msg');
   }
@@ -68,7 +69,7 @@ export class EchoListService implements OnInit {
                     }
                     compteur++;
                   }
-                  
+
                 });
                 resolve(ids);
               }
@@ -97,7 +98,7 @@ export class EchoListService implements OnInit {
         });
       }
     )
-    
+
   }
 
   getNbEchos() {
@@ -172,8 +173,8 @@ export class EchoListService implements OnInit {
     )
   }
 
-  
-  
+
+
   getEchosRange() {
     return new Promise(
       (resolve, reject) => {
@@ -204,11 +205,11 @@ export class EchoListService implements OnInit {
   createNewEcho(newEcho: Echo) {
     this.echos.unshift(newEcho);
     this.echosPortee.unshift(newEcho);
-    
+
     this.saveEchos();
     this.emitEchos();
     this.emitEchosPortee();
-    
+
   }
 
   getEcho(idEcho) {
@@ -245,8 +246,7 @@ export class EchoListService implements OnInit {
           }
         )
       }
-    ) 
+    )
   }
 
 }
-
