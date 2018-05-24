@@ -5,7 +5,7 @@ loaded="pageLoaded">
 
 
   <GridLayout row="*, auto" columns="*">
-      <PullToRefresh (refresh)="refreshList($event)">
+      <PullToRefresh (refresh)="refreshList($event)" $event="event">
         <ListView row="0" [items]="echoListPortee" class="list-group">
           <ng-template tkListItemTemplate let-item="item" let-i="index">
               <StackLayout orientation="vertical" class="list-group-item" (tap)="onViewEcho(i)">

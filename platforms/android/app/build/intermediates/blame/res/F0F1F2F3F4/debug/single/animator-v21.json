@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/k1l14n/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/animator-v21/design_appbar_state_list_animator.xml",
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/animator-v21/design_appbar_state_list_animator.xml"
     }

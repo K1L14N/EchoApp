@@ -5,7 +5,8 @@ import { ListSingleComponent } from './pages/list/list-single/list-single.compon
 import { AboutComponent } from './pages/about/about.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ProfilComponent } from './pages/profil/profil.component';
-
+import { CreateComponent } from './pages/create/create.component';
+import { AuthGuard } from './auth.guard';
 export const routes = [
   { path : "", redirectTo: "login", pathMatch: "full"},
   { path: "login", component: LoginComponent },
@@ -14,6 +15,7 @@ export const routes = [
   { path: "contacts", component: ContactsComponent},
   { path: "profil", component: ProfilComponent},
   { path: "about", component: AboutComponent},
+  { path: "create", component: CreateComponent},
   { path: "**", redirectTo: "login", pathMatch: "full"}
 ];
 
@@ -23,5 +25,6 @@ export const navigatableComponents = [
   ListSingleComponent,
   AboutComponent,
   ProfilComponent,
-  ContactsComponent
+  ContactsComponent,
+  CreateComponent
 ];

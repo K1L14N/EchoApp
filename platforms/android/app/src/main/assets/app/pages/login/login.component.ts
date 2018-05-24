@@ -36,11 +36,9 @@ export class LoginComponent implements OnInit {
 
   }
 
-  ngOnInit() {  
+  ngOnInit() {
     this.page.actionBarHidden = true;
-    //this.page.backgroundImage = "res://bg_login";
     this.geolocationService.updateLocation();
-    this.contactsService.reqPerm();
   }
 
   submit() {
@@ -59,7 +57,7 @@ export class LoginComponent implements OnInit {
           this.page.actionBarHidden = false;
         },
         (error) => {
-          alert('erreur : ' + error);
+          alert('erreur : ' + JSON.stringify(error));
         }
       );
   }
@@ -72,19 +70,18 @@ export class LoginComponent implements OnInit {
           this.toggleDisplay();
         },
         (error) => {
-          alert('erreur : ' + error);
+          alert('erreur : ' + JSON.stringify(error));
         }
       );
   }
   
   toggleDisplay() {
     this.isLoggingIn = !this.isLoggingIn;
-    this.isLoggingIn ? this.page.background = "white" : this.page.background = "salmon";
     let container = <View>this.container.nativeElement;
     container.animate({
       duration: 400,
       translate: this.isLoggingIn ? {x: 0, y: 10} : {x: 0, y: -10},
-      curve: AnimationCurve.easeIn
+      curve: AnimationCurve.ease
     });
     // blank both fields
     this.user = new User();

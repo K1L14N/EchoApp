@@ -9,6 +9,7 @@
     "@angular/platform-browser-dynamic": true,
     "@angular/router": true,
     "nativescript-angular": true,
+    "nativescript-camera": true,
     "nativescript-contacts": true,
     "nativescript-floatingactionbutton": true,
     "nativescript-geolocation": true,

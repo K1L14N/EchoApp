@@ -1,5 +1,5 @@
--injars /home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/transforms/jarMerging/F0F1F2F3F4/debug/jars/1/1f/combined.jar
--outjars /home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/multi-dex/F0F1F2F3F4/debug/componentClasses.jar
+-injars /home/k1l14n/EchoApp/platforms/android/app/build/intermediates/transforms/jarMerging/F0F1F2F3F4/debug/jars/1/1f/combined.jar
+-outjars /home/k1l14n/EchoApp/platforms/android/app/build/intermediates/multi-dex/F0F1F2F3F4/debug/componentClasses.jar
 
 -libraryjars /home/k1l14n/Android/build-tools/27.0.3/lib/shrinkedAndroid.jar
 
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration /home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/multi-dex/F0F1F2F3F4/debug/components.flags
+-printconfiguration /home/k1l14n/EchoApp/platforms/android/app/build/intermediates/multi-dex/F0F1F2F3F4/debug/components.flags
 
 
 # view AndroidManifest.xml #generated:38

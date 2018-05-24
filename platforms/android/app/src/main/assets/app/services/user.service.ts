@@ -97,7 +97,14 @@ export class UserService {
   }
 
   getUserId() {
-    return firebaseWebApi.auth().currentUser.uid;
+    return (firebaseWebApi.auth().currentUser.uid);
+  }
+
+  getUserIdProm() {
+    return new Promise(
+      (resolve, reject) => {
+        resolve(firebaseWebApi.auth().currentUser.uid);
+      })
   }
 
   updateContacts(contacts) {
