@@ -29,10 +29,10 @@ com/google/firebase/firestore/Exclude.class
 android/support/v7/recyclerview/R$styleable.class
 android/support/v4/widget/CircularProgressDrawable$1.class
 android/support/design/widget/BaseTransientBottomBar$ContentViewCallback.class
-com/google/android/gms/location/FusedLocationProviderApi.class
 android/support/v4/widget/SearchViewCompat$OnCloseListener.class
-com/google/android/gms/common/api/internal/zzdb.class
+com/google/android/gms/location/FusedLocationProviderApi.class
 android/support/v4/view/ScaleGestureDetectorCompat.class
+com/google/android/gms/common/api/internal/zzdb.class
 android/support/multidex/MultiDexExtractor.class
 android/support/v4/media/MediaBrowserCompat$Subscription.class
 android/support/v4/app/NotificationCompatBase$UnreadConversation.class
@@ -74,8 +74,8 @@ android/support/v4/media/MediaBrowserCompat$ConnectionCallback.class
 com/google/firebase/firestore/PropertyName.class
 android/support/v7/widget/ChildHelper$Callback.class
 android/support/v4/media/MediaDescriptionCompat$Builder.class
-android/support/v4/media/MediaBrowserServiceCompat$ResultFlags.class
 android/support/v4/app/DialogFragment$DialogStyle.class
+android/support/v4/media/MediaBrowserServiceCompat$ResultFlags.class
 com/google/android/gms/common/SignInButton$ColorScheme.class
 android/support/v4/media/MediaMetadataCompat$Builder.class
 android/support/v7/app/ActionBarDrawerToggle$Delegate.class
@@ -223,8 +223,8 @@ android/support/design/widget/BaseTransientBottomBar$Duration.class
 com/google/android/gms/internal/zzdpy.class
 android/arch/lifecycle/LifecycleObserver.class
 android/support/v4/view/AccessibilityDelegateCompat.class
-com/google/android/gms/phenotype/PhenotypeFlag.class
 android/support/v4/widget/ScrollerCompat.class
+com/google/android/gms/phenotype/PhenotypeFlag.class
 android/support/annotation/StringRes.class
 android/support/v7/widget/ChildHelper.class
 android/support/v4/app/NotificationCompatBase$UnreadConversation$Factory.class
@@ -616,8 +616,8 @@ android/support/annotation/AttrRes.class
 android/support/v4/widget/TextViewCompat$TextViewCompatApi23Impl.class
 android/support/v4/view/ViewCompat$ImportantForAccessibility.class
 android/support/v7/widget/GapWorker.class
-com/google/android/gms/common/data/AbstractDataBuffer.class
 com/google/firebase/analytics/FirebaseAnalytics$Param.class
+com/google/android/gms/common/data/AbstractDataBuffer.class
 android/support/v4/widget/ResourceCursorAdapter.class
 android/support/annotation/Size.class
 android/support/v4/media/AudioAttributesCompat.class
@@ -719,8 +719,8 @@ android/support/design/widget/TabLayout$1.class
 android/support/design/widget/CoordinatorLayout$DispatchChangeEvent.class
 com/google/android/gms/internal/zzbgp.class
 android/support/v4/media/MediaBrowserCompat$ItemReceiver.class
-com/google/android/gms/phenotype/zzm.class
 android/support/v4/view/MotionEventCompat.class
+com/google/android/gms/phenotype/zzm.class
 android/support/v4/app/RemoteInput.class
 android/support/v4/app/ActionBarDrawerToggle$DelegateProvider.class
 android/support/v4/app/NotificationCompatApi26$Builder.class

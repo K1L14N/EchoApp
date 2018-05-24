@@ -10,6 +10,7 @@ import * as dialogs from "ui/dialogs";
 import { transition } from '@angular/animations';
 import { RouterExtensions } from 'nativescript-angular/router';
 import { AnimationCurve } from 'ui/enums';
+import { Page } from 'tns-core-modules/ui/page';
 var frameModule = require('ui/frame');
 
 @Component({
@@ -28,12 +29,14 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 	application.android.foregroundActivity ||
 	frameModule.topmost().android.currentActivity ||
 	frameModule.topmost().android.activity;
-
+	
 	constructor(
 		private userService: UserService,
 		private router: Router,
 		private routerExtensions: RouterExtensions,
-		private changeDetectorRef: ChangeDetectorRef) { }
+		private changeDetectorRef: ChangeDetectorRef,
+		private page: Page) { }
+	
 
 	ngOnInit() {
 		if (!isAndroid) {
@@ -84,6 +87,14 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 						curve: 'linear'
 				}});
 					//console.log('5');					
+				} else if (this.router.isActive('/create', true)) {
+					data.cancel = true;
+					this.routerExtensions.navigate(['/list'], { transition: {
+						name: 'flip',
+						duration: 1000,
+						curve: 'linear'
+				}});
+					//console.log('6');					
 				} else { //list/view/:id
 					data.cancel = true;
 					this.routerExtensions.navigate(['/list'], { transition: {

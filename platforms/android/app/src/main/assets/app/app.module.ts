@@ -7,7 +7,7 @@ import { TimeAgoPipe } from 'time-ago-pipe';
 
 import { AppComponent } from "./app.component";
 import { routes, navigatableComponents } from "./app.routing";
-
+import { AuthGuard } from './auth.guard';
 import firebase = require('nativescript-plugin-firebase');
 import { EchoListService } from "./services/echo-list.service";
 import { UserService } from "./services/user.service";
@@ -38,10 +38,10 @@ firebase
     AppComponent,
     ...navigatableComponents,
     TimeAgoPipe,
-    HeaderComponent
+    HeaderComponent,
   ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],
-  providers: [EchoListService, UserService, GeolocationService]
+  providers: [EchoListService, UserService, GeolocationService, AuthGuard]
 })
 export class AppModule { }

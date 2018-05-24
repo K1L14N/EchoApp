@@ -1,27 +1,67 @@
 [
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_hint_foreground_material_light.xml"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_btn_colored_text_material.xml"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_tint.xml",
         "source": "/home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/res/color/common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/design_error.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_secondary_text_material_light.xml",
@@ -32,60 +72,84 @@
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_default.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_material_dark.xml",
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_switch_track.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_switch_track.xml"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_search_url_text.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_spinner.xml",
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/design_error.xml",
-        "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/color/design_error.xml"
-    },
-    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_edittext.xml",
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_btn_checkable.xml"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_text_dark.xml",
         "source": "/home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_material_light.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_spinner.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_search_url_text.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_search_url_text.xml"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_seek_thumb.xml"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_edittext.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/design_tint_password_toggle.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/design_tint_password_toggle.xml",
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_default.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/switch_thumb_material_light.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_hint_foreground_material_dark.xml",
@@ -96,7 +160,143 @@
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/switch_thumb_material_dark.xml"
     },
     {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/design_error.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_default.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/design_error.xml",
+        "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/design_tint_password_toggle.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_search_url_text.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_edittext.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_default.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_spinner.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_tint_spinner.xml"
+    },
+    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_tint_switch_thumb.xml",
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/color/abc_search_url_text.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/color/abc_search_url_text.xml"
     }
 ]

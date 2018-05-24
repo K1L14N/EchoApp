@@ -1,19 +1,14 @@
 import { Component, ElementRef, OnInit, ViewChild, OnDestroy } from "@angular/core";
 import { Echo } from "../../models/echo";
 import { EchoListService } from "../../services/echo-list.service";
-import { UserService } from "../../services/user.service";
 import { TextField } from "ui/text-field";
 import { Subscription } from 'rxjs/Subscription';
 import { Page } from "ui/page";
 import { Router } from "@angular/router";
 import { GeolocationService } from "../../services/geolocation.service";
 import { Location } from 'nativescript-geolocation';
-import { Observable } from "data/observable";
-import { registerElement } from "nativescript-angular/element-registry";
-registerElement("PullToRefresh", () => require("nativescript-pulltorefresh").PullToRefresh);
-registerElement("Fab", () => require("nativescript-floatingactionbutton").Fab); //Floating button https://github.com/bradmartin/nativescript-floatingactionbutton
-const firebase = require("nativescript-plugin-firebase");
 
+const firebase = require("nativescript-plugin-firebase");
 
 @Component({
   selector: "list",
@@ -23,27 +18,28 @@ const firebase = require("nativescript-plugin-firebase");
 })
 
 export class ListComponent implements OnInit, OnDestroy {
+
   locationSubscription: Subscription;
   currentLocation: Location;
 
   echoList: Echo[] = [];
-  echoListPortee: any = [];
+  echoListPortee: Echo[] = [];
 
   echoSubscription: Subscription;
   echoPorteeSubscription: Subscription;
 
   echo = "";
   @ViewChild("echoTextField") echoTextField: ElementRef;
-  
-  constructor(
-    private echoListService: EchoListService,
-    private userService: UserService,
-    private page: Page,
-    private router: Router,
-    private geolocationService: GeolocationService) { }
+
+
+  constructor(private echoListService: EchoListService,
+              private page: Page,
+              private router: Router,
+              private geolocationService: GeolocationService) {}
 
   ngOnInit() {
-    this.userService.initUser();
+    //this.page.actionBarHidden = true;
+
     // en cas d'update de Location
     this.locationSubscription = this.geolocationService.locationSubject.subscribe(
       (location: Location) => {
@@ -70,18 +66,11 @@ export class ListComponent implements OnInit, OnDestroy {
     this.echoListService.emitEchos();
 
     // charge les echos
-    this.echoListService.getEchos()
-    .then((args) => { this.echoListPortee = args;})
-
-    
+    this.echoListService.getEchos();
   }
 
   onViewEcho(idEcho) {
     this.router.navigate(['/list', 'view', idEcho]);
-  }
-
-  onTapAdd() {
-    //this.router.navigate(['/create']);
   }
 
   add() {
@@ -91,7 +80,7 @@ export class ListComponent implements OnInit, OnDestroy {
       alert("Entrez un echo");
       return;
     }
-  
+
     // Dismiss the keyboard
     let textField = <TextField>this.echoTextField.nativeElement;
     textField.dismissSoftInput();
@@ -103,13 +92,6 @@ export class ListComponent implements OnInit, OnDestroy {
     newEcho.longitude = this.currentLocation.longitude;
     this.echoListService.createNewEcho(newEcho);
   }
-  
-  refreshList(args) {
-    var pullRefresh = args.object;
-    setTimeout(function () {
-       pullRefresh.refreshing = false;
-    }, 1000);
-  }
 
   ngOnDestroy() {
     this.echoSubscription.unsubscribe();
@@ -117,4 +99,10 @@ export class ListComponent implements OnInit, OnDestroy {
     this.echoPorteeSubscription.unsubscribe();
   }
 
+  //args: observable.EventData
+  showSideDrawer(args) {
+    console.log("Show SideDrawer tapped.");
+    // Show sidedrawer ...
+    this.router.navigate(['/params']);
+  }
 }

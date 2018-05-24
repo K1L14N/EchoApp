@@ -14,7 +14,7 @@ export class UserService {
   _user: User = new User();
 
   constructor() {
-    
+
   }
 
   createNewUser(user: User) {
@@ -53,7 +53,7 @@ export class UserService {
     firebaseWebApi.auth().signOut();
     this._user = new User();
   }
-  
+
   initUser() {
     let user = firebaseWebApi.auth().currentUser;
     let now = new Date();
@@ -62,9 +62,9 @@ export class UserService {
     this._user.uid = user.uid;
     this._user.currentLogin = now;
     this.getContacts();
-    this.getLastLogin().then(() => { this.updateUserDB() }); 
+    this.getLastLogin().then(() => { this.updateUserDB() });
     }
-  
+
 
   updateUserDB() {
     return new Promise(
@@ -86,7 +86,7 @@ export class UserService {
           (data) => {
             this._user.lastLogin = data.val();
             console.log(JSON.stringify(data.val()));
-            
+
             resolve(data.val());
           }, (error) => {
             reject (error);
@@ -97,7 +97,18 @@ export class UserService {
   }
 
   getUserId() {
-    return firebaseWebApi.auth().currentUser.uid;
+    return (firebaseWebApi.auth().currentUser.uid);
+  }
+
+  getUserIdProm() {
+    return new Promise(
+      (resolve, reject) => {
+        resolve(firebaseWebApi.auth().currentUser.uid);
+      })
+  }
+
+  getUser() {
+    return firebaseWebApi.auth().currentUser;
   }
 
   updateContacts(contacts) {

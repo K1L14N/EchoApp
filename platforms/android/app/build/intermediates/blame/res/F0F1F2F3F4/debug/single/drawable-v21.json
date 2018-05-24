@@ -4,12 +4,24 @@
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/design_password_eye.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/pressable_item_background.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/930c883004d5c20a215a2b06423fe74183858ee1/output/res/drawable-v21/pressable_item_background.xml"
+    },
+    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/avd_show_password.xml",
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/pressable_item_background.xml",
@@ -20,19 +32,79 @@
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/design_password_eye.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/avd_hide_password.xml",
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/pressable_item_background.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/9ce0b8a53f1052f8889150f900fbb61401f4c5a3/output/res/drawable-v21/pressable_item_background.xml"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/avd_show_password.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/design_password_eye.xml",
         "source": "/home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/res/drawable-v21/design_password_eye.xml"
     },
     {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_action_bar_item_background_material.xml",
         "source": "/home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/avd_show_password.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/res/drawable-v21/avd_hide_password.xml"
     }
 ]

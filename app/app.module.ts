@@ -15,7 +15,6 @@ import { GeolocationService } from "./services/geolocation.service"
 import { NativeScriptUISideDrawerModule } from 'nativescript-ui-sidedrawer/angular'
 import { HeaderComponent } from './pages/header/header.component';
 import { NativeScriptCommonModule } from 'nativescript-angular/common';
-import { CreateComponent } from './pages/create/create.component';
 
 firebase
   .init({
@@ -40,7 +39,6 @@ firebase
     ...navigatableComponents,
     TimeAgoPipe,
     HeaderComponent,
-    CreateComponent
   ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],

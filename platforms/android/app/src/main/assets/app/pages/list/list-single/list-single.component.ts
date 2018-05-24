@@ -13,6 +13,7 @@ import { EchoListService } from '../../../services/echo-list.service';
 export class ListSingleComponent implements OnInit {
 
     echo: Echo;
+    showImage: Boolean = false;
 
     constructor(private echoListService: EchoListService, private router: Router, private route: ActivatedRoute) {}
 
@@ -24,5 +25,20 @@ export class ListSingleComponent implements OnInit {
                 this.echo = echo;
             }
         );
+    }
+
+    refreshList(args) {
+        var pullRefresh = args.object;
+        setTimeout(function () {
+           pullRefresh.refreshing = false;
+        }, 1000);
+      }
+
+    onTapAdd() {
+        this.router.navigate(['/create']);
+    }
+
+    toggleShowImg() {
+        this.showImage = !this.showImage;
     }
 }

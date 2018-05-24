@@ -4,6 +4,10 @@
         "directory": "../../node_modules/nativescript-angular"
     },
     {
+        "name": "nativescript-camera",
+        "directory": "../../node_modules/nativescript-camera"
+    },
+    {
         "name": "nativescript-floatingactionbutton",
         "directory": "../../node_modules/nativescript-floatingactionbutton"
     },

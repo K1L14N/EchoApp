@@ -1,51 +1,339 @@
 [
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/contacts.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/contacts.png"
-    },
-    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/menubis.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/menubis.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/slider.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/slider.png"
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/contacts.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/contacts.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/checked.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/checked.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/unchecked.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/less.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/less.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/nonselected.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/nonselected.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/uda.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/uda.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/place2.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/place2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_application.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_application.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/ic.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/ic.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/unchecked_white.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked_white.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/ic.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/ic.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/center.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/center.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sc.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sc.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/settings.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/settings.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/uda.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/uda.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/region.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/region.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo_signup.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo_signup.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/delete.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/delete.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/apple.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/apple.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/satellite1.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/satellite1.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/unchecked_white.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked_white.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_application.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_application.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/online.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/online.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sat3.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sat3.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/checked_white.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/checked_white.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sort.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/sort.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/place.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/place.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/menu.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/menu.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_star_vide.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_star_vide.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/menubis.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/menubis.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/add.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/add.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/menu.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/menu.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/unchecked.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sat3.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sat3.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/slider.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/slider.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/plus.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/plus.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/plus.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/plus.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sat2.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sat2.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_photo.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_photo.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo_signup.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/logo_signup.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo_login.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo_login.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/place2.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/place2.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/plus2.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/plus2.png"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/checked_white.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/checked_white.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sort.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sort.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/upgrade.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/upgrade.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sig.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/sig.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sat3.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/sat3.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_star_pleine.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_star_pleine.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/less.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/less.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/place2.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/place2.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/banana.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/banana.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/slider.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/slider.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sat2.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/sat2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/pear.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/pear.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/contacts.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/contacts.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/satellite1.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/satellite1.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo_login.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo_login.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/add.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/add.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/upgrade.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/upgrade.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_freq.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_freq.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/selected.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/selected.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sat2.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sat2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/delete.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/delete.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/udab.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/udab.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/service.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/service.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/recent.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/recent.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sig2.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sig2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/center.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/center.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/background2.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/background2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/background2.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/background2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/checked.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/checked.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/settings.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/settings.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/selected.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/selected.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/center2.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/center2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/menubis.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/menubis.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sc.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sc.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sc.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/sc.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/uda.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/uda.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/settings.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/settings.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/center.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/center.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/banana.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/banana.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/unchecked_white.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked_white.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/upgrade.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/upgrade.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/online.png",
@@ -60,92 +348,72 @@
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sig2.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/region.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/region.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_star_pleine.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_star_pleine.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/pear.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/pear.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/add.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/add.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/region.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/region.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo_signup.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo_signup.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sc.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sc.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo_login.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/logo_login.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/banana.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/banana.png"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/plus2.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/plus2.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sig.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sig.png"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/center2.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/center2.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/service.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/service.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sig2.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/sig2.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/service2.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/service2.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/background.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/background.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/add.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/add.png"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_photo.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_photo.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/uda.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/uda.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/place.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/place.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/delete.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/delete.png"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/place.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/place.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/less.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/less.png"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/pear.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/pear.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/selected.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/selected.png"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/plus.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/plus.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/unchecked_white.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked_white.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sat3.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sat3.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/udab.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/udab.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/recent.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/recent.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/ic.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/ic.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/place.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/place.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/region.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/region.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/checked_white.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/checked_white.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/menu.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/menu.png"
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/service2.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/service2.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/apple.png",
@@ -156,23 +424,155 @@
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/nonselected.png"
     },
     {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/contacts.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/contacts.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/service.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/service.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sort.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sort.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/background.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/background.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/slider.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/slider.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/plus2.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/plus2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/banana.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/banana.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sat2.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sat2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_freq.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_freq.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/place2.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/place2.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/plus2.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/plus2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/center2.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/center2.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/upgrade.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/upgrade.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/center.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/center.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/service2.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/service2.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/menu.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/menu.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/online.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/online.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/pear.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/pear.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sig.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sig.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/service2.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/service2.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/service.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/service.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/delete.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/delete.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/selected.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/selected.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/unchecked.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/less.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/less.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/recent.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/recent.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/udab.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/udab.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/nonselected.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/nonselected.png"
+    },
+    {
+        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/ic.png",
+        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/ic.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/recent.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/recent.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/apple.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/apple.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icone_star_vide.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icone_star_vide.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/sig.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/sig.png"
+    },
+    {
+        "merged": "/home/adrien/app/EchoApp (copie)/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/checked.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/checked.png"
     },
     {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/icon.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+        "merged": "/home/adrien/app/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/udab.png",
+        "source": "/home/adrien/app/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/udab.png"
     },
     {
         "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/satellite1.png",
         "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/satellite1.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/center2.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/center2.png"
-    },
-    {
-        "merged": "/home/k1l14n/Documents/EchoApp/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xxxhdpi/unchecked.png",
-        "source": "/home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked.png"
     }
 ]

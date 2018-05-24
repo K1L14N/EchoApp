@@ -5,7 +5,7 @@ import { ListSingleComponent } from './pages/list/list-single/list-single.compon
 import { AboutComponent } from './pages/about/about.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ProfilComponent } from './pages/profil/profil.component';
-
+import { AuthGuard } from './auth.guard';
 export const routes = [
   { path : "", redirectTo: "login", pathMatch: "full"},
   { path: "login", component: LoginComponent },
@@ -23,5 +23,5 @@ export const navigatableComponents = [
   ListSingleComponent,
   AboutComponent,
   ProfilComponent,
-  ContactsComponent
+  ContactsComponent,
 ];

@@ -1,391 +1,393 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:3:2-38
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:3:2-38
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
 supports-screens
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
 	android:largeScreens
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
 	android:smallScreens
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
 	android:normalScreens
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
 	android:xlargeScreens
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
 uses-sdk
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
-MERGED from [com.android.support:multidex:1.0.1] /home/k1l14n/.android/build-cache/602ccbb5cf64992fd66823fbab541b4badc477b0/output/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:design:26.0.0-alpha1] /home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/k1l14n/.android/build-cache/79727217a9b813f84be9ff2bc637b1b5e2bed2ef/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/k1l14n/.android/build-cache/3a6171cdf51a983b03058a77d0ac21a5c008b1b2/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/k1l14n/.android/build-cache/e69953b2fbea597bf4d27106905b23fba1a67600/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-core:12.0.1] /home/k1l14n/.android/build-cache/807b62f035b5439cbd60153f5b270df9a30aac83/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/k1l14n/.android/build-cache/81e305f06c38c97f6ab38b39061e4c6ed732ff34/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/k1l14n/.android/build-cache/0a242c2baceb08eb102a6c414fc904743752cfb9/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/k1l14n/.android/build-cache/241a11f1d89607515cb42b9b542f970311f132d1/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/k1l14n/.android/build-cache/86810f5787ca4ece5350df15a7c60ee9cf059cb6/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/k1l14n/.android/build-cache/b6b38a4e41e7c9259ec1180d5fc01b63398a2682/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:26.0.0-alpha1] /home/k1l14n/.android/build-cache/f2b958b40609589905b30039306c87592d9c61e8/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/k1l14n/.android/build-cache/2bc3968489dfa0a610ed7ea05d802900ec5d5e81/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/k1l14n/.android/build-cache/a8d0373dc67469535813bbd8f1cbd31946fd8363/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database:12.0.1] /home/k1l14n/.android/build-cache/609f37d89fc6ee2a8f2c36d2f78b17c60fb39ab7/output/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /home/k1l14n/.android/build-cache/5628f2d0b7e4213b4cea35452fabadb1789c6af2/output/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/k1l14n/.android/build-cache/76b2813de15c88d72ce6606daa36e318c1e39a7b/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/k1l14n/.android/build-cache/8776bceb68ab90a3e2aba9ebe09fa466615d2ab0/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-firestore:12.0.1] /home/k1l14n/.android/build-cache/c60cace0789cc22119602ae1600ab783e7a8a84b/output/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/k1l14n/.android/build-cache/51c1b5532b313294d1a6220dfb329617583d0477/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/k1l14n/.android/build-cache/95c799886f079b496a1f7c9ab3061e1dbd240d02/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage:12.0.1] /home/k1l14n/.android/build-cache/284daa896ae44d2c67234380a29b0ac9469469ab/output/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-storage-common:12.0.1] /home/k1l14n/.android/build-cache/61a427964b80399e35af899a69ca8b30644e3b07/output/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/k1l14n/.android/build-cache/b81a0237f79d81925a96a0071e1141af25919147/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.1] /home/k1l14n/.android/build-cache/c9f1ca4e359eb488a8a95c77caf6808f9c548c1d/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/k1l14n/.android/build-cache/4194a31e6b8d0eac8844fb60229fb9725cd884db/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/k1l14n/.android/build-cache/4cf7c11e344db4edf3b7cba82ddb446406ef07f7/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/k1l14n/.android/build-cache/37f47d1f0e4ea8f83ea05529813de62d3c168df9/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/k1l14n/.android/build-cache/02ef55b6f6cfb0e617a8e514b5f1abacb9acedab/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/k1l14n/.android/build-cache/607d6fc017c8a3c42023734259d00620fcdd9b6d/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/k1l14n/.android/build-cache/298061a856fd48d765f37c1fa493f0b013c07ff7/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/k1l14n/.android/build-cache/e5363896128534507760b37409c4bc5d454893c7/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/k1l14n/.android/build-cache/6039ee74f5a8f1914cdefe638d7c494cf328f6e3/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/k1l14n/.android/build-cache/5ca82bb99d8d370054b835a6b0c59a138db75993/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /home/k1l14n/.android/build-cache/d81b8121624ace69edf21e8696793e30e88c56a8/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/k1l14n/.android/build-cache/367be963a770aecc48210defd44e3a1a3916ce51/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/k1l14n/.android/build-cache/7aff7fe9ff4318dba5398dc85d9e34a467a8bba0/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] /home/k1l14n/.android/build-cache/74c6aed702defcccd4e8cb2260099e246c5dc6be/output/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-cache/4e40ce274c32edddecb2cd8a5e947ea922fca807/output/AndroidManifest.xml:20:5-22:41
-MERGED from [:nativescript-optimized:] /home/k1l14n/.android/build-cache/2d9f9156f4f3d494f8e49eb0ebd7e937849300ad/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/0804712d1ee3fda96471a1d52a92c83bb38a0e13/output/AndroidManifest.xml:7:5-47
-MERGED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSListView-release:] /home/k1l14n/.android/build-cache/267f92973a023b8f952d4d08d72f17d5910c6530/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSSideDrawer-release:] /home/k1l14n/.android/build-cache/66b5d8f57ce8585067e27eeac20d79fbb41c08ab/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSCore-release:] /home/k1l14n/.android/build-cache/5ae44354bbfad76fd590e7dc674e86d71d74a4c9/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:widgets-release:] /home/k1l14n/.android/build-cache/7031d277d39356a26af34dd8ca574b940f766ff9/output/AndroidManifest.xml:7:5-9:41
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [com.android.support:multidex:1.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b82bf4366ff6c0a1b15f0cf75389940c038896a7/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/83dbbc5a112db8780d76823cfc17404ecd3d61f7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/6040e8284d05dab9e1f4ddee9d11131945f7b2ce/output/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/87134693d6b98bc2db8e3e95fd2b96116b1a5f84/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/3c59b154092705e21ac1a3b71e28ddbd9de0c24f/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/ca2f9bdd7cdbf7831c1ba65bc0b4b148984bdc1a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/8cd3f6ba62abda235911b3da78c4fdfc4b5260ae/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/f4db2bf5357a842aafc8bb686602d15efd6871db/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/2d2715f4adb56ef2637c2d10dad80c2fe1a322c9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/eb095dc2d55e1536bb477ee7334f3db84c40207a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/9b5f4e105f17a4cf37285ef716923d742961274b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/5a203ee407ef4b259626a160b13b933abf04d1f5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/35ddc85366d497827c04b2e444878e8d4e95a0b2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/d22c07a3656e1748bcbcffe4c7a690a677ddcd6b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2a027b9bc65ed20aa62582ef0784acd873abbdb7/output/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/e8dcd5ddc6dd315e3aa24af8b4e1573ecde9e376/output/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/f382ed32faffaa995eb3db01f44758af3b97402d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/bb67115df00865cd8bd168621f04c18fc4fabbae/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/857faf7e129a9d38069df702d7f5b439bd850023/output/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/4454bf5a73b73a16e1faac860ed36ccf11f5d903/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/66e8be642b366dc9f6f7577254be596a7c0a44ce/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/e0de22028fcde48888daf1f63650e0f9521e7708/output/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/28a9ac3881cff1e5ad5eff51fdcd28e4d585a3b4/output/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/8893c8fdcb90230c9abe8a17e143f929c2d27ff1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5f050c1d641ba5eed35343e963ba6c1f93fe5b17/output/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/05807d283e0a312609cb9290927c18b7e49d3753/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/f8ebfcaf7c386558e509d41fff46154f21b256aa/output/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/1272d51a533160c2368d3b63656bb896be03770c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/0f3de97df0f041d122d03497ebef72cc00462b25/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2015deaa2208a02f658e2cea9ae4956ea3ae3d9e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/6c659229b696b6c908828780140603dee4fae542/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/fe05ad491329f88b53470a82487b72995a4762fa/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/4b2358dae2760ffb5f6bcd6b0c5cc7ec13cc509b/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/f21759f50e3a9d4e150b430ac4fb72148775fb94/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/286ad070d12f25942c405008d9bea3fad9226e3b/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/83afeb8b958a1a9ec940f294f5fd32716310667a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/64186dd99e62fab2ce498ec7502f117cc991b231/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/bd81de08e639c2a4be88f4ddceb1b69faa0957a7/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/adrien/Documents/IMAG/android/.android/build-cache/bdd2cfd6cc18f7a2a6bd48da0cb7035f502de87d/output/AndroidManifest.xml:20:5-22:41
+MERGED from [:nativescript-optimized:] /home/adrien/Documents/IMAG/android/.android/build-cache/cd82c7305eebfa528755e8a165a9426c0668cb65/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript_geolocation:] /home/adrien/Documents/IMAG/android/.android/build-cache/5625dbfbe86d0a1eede6ec2dcc3ebe385ec92296/output/AndroidManifest.xml:7:5-47
+MERGED from [:firebase-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/43f6259d261b90c5ab6f8d70edff153ffcbd2ded/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:pushplugin:] /home/adrien/Documents/IMAG/android/.android/build-cache/c51aed13b68a80e6947bd40d241513f82459d8cf/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/930c883004d5c20a215a2b06423fe74183858ee1/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/472a675fc5b5e649806163558aec8d16b18b83b8/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/65da10892450c4f2071110d9cce6dc6732d6a9e5/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/642e18346f5f3230b8e9790a7c0b36c3146d98d9/output/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
-		MERGED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
-		INJECTED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
+		MERGED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
 uses-permission#android.permission.INTERNET
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
-MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:23:5-67
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/ca2f9bdd7cdbf7831c1ba65bc0b4b148984bdc1a/output/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:21:2-68
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:21:2-68
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:21:19-66
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:21:19-66
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:22:2-69
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:22:2-69
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:22:19-67
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:22:19-67
 application
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:24:2-42:16
-MERGED from [com.android.support:design:26.0.0-alpha1] /home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/k1l14n/.android/build-cache/79727217a9b813f84be9ff2bc637b1b5e2bed2ef/output/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/k1l14n/.android/build-cache/3a6171cdf51a983b03058a77d0ac21a5c008b1b2/output/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/k1l14n/.android/build-cache/e69953b2fbea597bf4d27106905b23fba1a67600/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-core:12.0.1] /home/k1l14n/.android/build-cache/807b62f035b5439cbd60153f5b270df9a30aac83/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:27:5-52:19
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:27:5-38:19
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/k1l14n/.android/build-cache/81e305f06c38c97f6ab38b39061e4c6ed732ff34/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/k1l14n/.android/build-cache/0a242c2baceb08eb102a6c414fc904743752cfb9/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/k1l14n/.android/build-cache/241a11f1d89607515cb42b9b542f970311f132d1/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/k1l14n/.android/build-cache/86810f5787ca4ece5350df15a7c60ee9cf059cb6/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/k1l14n/.android/build-cache/b6b38a4e41e7c9259ec1180d5fc01b63398a2682/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:customtabs:26.0.0-alpha1] /home/k1l14n/.android/build-cache/f2b958b40609589905b30039306c87592d9c61e8/output/AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:22:5-30:19
-MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/k1l14n/.android/build-cache/2bc3968489dfa0a610ed7ea05d802900ec5d5e81/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/k1l14n/.android/build-cache/a8d0373dc67469535813bbd8f1cbd31946fd8363/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/k1l14n/.android/build-cache/76b2813de15c88d72ce6606daa36e318c1e39a7b/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/k1l14n/.android/build-cache/8776bceb68ab90a3e2aba9ebe09fa466615d2ab0/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/k1l14n/.android/build-cache/51c1b5532b313294d1a6220dfb329617583d0477/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/k1l14n/.android/build-cache/95c799886f079b496a1f7c9ab3061e1dbd240d02/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/k1l14n/.android/build-cache/b81a0237f79d81925a96a0071e1141af25919147/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common:12.0.1] /home/k1l14n/.android/build-cache/c9f1ca4e359eb488a8a95c77caf6808f9c548c1d/output/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/k1l14n/.android/build-cache/4194a31e6b8d0eac8844fb60229fb9725cd884db/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/k1l14n/.android/build-cache/4cf7c11e344db4edf3b7cba82ddb446406ef07f7/output/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/k1l14n/.android/build-cache/37f47d1f0e4ea8f83ea05529813de62d3c168df9/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/k1l14n/.android/build-cache/02ef55b6f6cfb0e617a8e514b5f1abacb9acedab/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/k1l14n/.android/build-cache/607d6fc017c8a3c42023734259d00620fcdd9b6d/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/k1l14n/.android/build-cache/298061a856fd48d765f37c1fa493f0b013c07ff7/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:26.1.0] /home/k1l14n/.android/build-cache/6039ee74f5a8f1914cdefe638d7c494cf328f6e3/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/k1l14n/.android/build-cache/5ca82bb99d8d370054b835a6b0c59a138db75993/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/k1l14n/.android/build-cache/d81b8121624ace69edf21e8696793e30e88c56a8/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/k1l14n/.android/build-cache/367be963a770aecc48210defd44e3a1a3916ce51/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/k1l14n/.android/build-cache/7aff7fe9ff4318dba5398dc85d9e34a467a8bba0/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/k1l14n/.android/build-cache/74c6aed702defcccd4e8cb2260099e246c5dc6be/output/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-cache/4e40ce274c32edddecb2cd8a5e947ea922fca807/output/AndroidManifest.xml:24:5-28:19
-MERGED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:11:5-22:19
-MERGED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:11:5-22:19
-MERGED from [:widgets-release:] /home/k1l14n/.android/build-cache/7031d277d39356a26af34dd8ca574b940f766ff9/output/AndroidManifest.xml:11:5-12:19
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:24:2-42:16
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/83dbbc5a112db8780d76823cfc17404ecd3d61f7/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/6040e8284d05dab9e1f4ddee9d11131945f7b2ce/output/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/87134693d6b98bc2db8e3e95fd2b96116b1a5f84/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/3c59b154092705e21ac1a3b71e28ddbd9de0c24f/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/ca2f9bdd7cdbf7831c1ba65bc0b4b148984bdc1a/output/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/8cd3f6ba62abda235911b3da78c4fdfc4b5260ae/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/f4db2bf5357a842aafc8bb686602d15efd6871db/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/2d2715f4adb56ef2637c2d10dad80c2fe1a322c9/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/eb095dc2d55e1536bb477ee7334f3db84c40207a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/9b5f4e105f17a4cf37285ef716923d742961274b/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/5a203ee407ef4b259626a160b13b933abf04d1f5/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/35ddc85366d497827c04b2e444878e8d4e95a0b2/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/d22c07a3656e1748bcbcffe4c7a690a677ddcd6b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/f382ed32faffaa995eb3db01f44758af3b97402d/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/bb67115df00865cd8bd168621f04c18fc4fabbae/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/4454bf5a73b73a16e1faac860ed36ccf11f5d903/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/66e8be642b366dc9f6f7577254be596a7c0a44ce/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/8893c8fdcb90230c9abe8a17e143f929c2d27ff1/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5f050c1d641ba5eed35343e963ba6c1f93fe5b17/output/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/05807d283e0a312609cb9290927c18b7e49d3753/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/f8ebfcaf7c386558e509d41fff46154f21b256aa/output/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/1272d51a533160c2368d3b63656bb896be03770c/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/0f3de97df0f041d122d03497ebef72cc00462b25/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2015deaa2208a02f658e2cea9ae4956ea3ae3d9e/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/6c659229b696b6c908828780140603dee4fae542/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/4b2358dae2760ffb5f6bcd6b0c5cc7ec13cc509b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/f21759f50e3a9d4e150b430ac4fb72148775fb94/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/286ad070d12f25942c405008d9bea3fad9226e3b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/83afeb8b958a1a9ec940f294f5fd32716310667a/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/64186dd99e62fab2ce498ec7502f117cc991b231/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/bd81de08e639c2a4be88f4ddceb1b69faa0957a7/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/adrien/Documents/IMAG/android/.android/build-cache/bdd2cfd6cc18f7a2a6bd48da0cb7035f502de87d/output/AndroidManifest.xml:24:5-28:19
+MERGED from [:firebase-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/43f6259d261b90c5ab6f8d70edff153ffcbd2ded/output/AndroidManifest.xml:11:5-22:19
+MERGED from [:pushplugin:] /home/adrien/Documents/IMAG/android/.android/build-cache/c51aed13b68a80e6947bd40d241513f82459d8cf/output/AndroidManifest.xml:11:5-22:19
+MERGED from [:widgets-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/642e18346f5f3230b8e9790a7c0b36c3146d98d9/output/AndroidManifest.xml:11:5-12:19
 	android:label
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:28:3-35
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:28:3-35
 	android:allowBackup
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:26:3-29
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:26:3-29
 	android:icon
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:27:3-32
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:27:3-32
 	android:theme
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:29:3-34
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:29:3-34
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:25:3-49
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:25:3-49
 activity#com.tns.NativeScriptActivity
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:30:3-40:14
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:30:3-40:14
+	android:screenOrientation
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:34:4-40
 	android:label
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:32:4-49
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:32:4-49
 	android:configChanges
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:33:4-65
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:33:4-65
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:31:4-47
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:31:4-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:35:5-39:20
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:35:5-39:20
 action#android.intent.action.MAIN
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:36:5-57
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:36:5-57
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:36:13-54
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:36:13-54
 category#android.intent.category.LAUNCHER
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
 activity#com.tns.ErrorReportActivity
-ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
 	android:name
-		ADDED from /home/k1l14n/Documents/EchoApp/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
+		ADDED from /home/adrien/app/EchoApp (copie)/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.0-alpha1] /home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/k1l14n/.android/build-cache/79727217a9b813f84be9ff2bc637b1b5e2bed2ef/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/k1l14n/.android/build-cache/9609a69799c01e524adecaa24e8a259baa5fb164/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/k1l14n/.android/build-cache/241a11f1d89607515cb42b9b542f970311f132d1/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/k1l14n/.android/build-cache/86810f5787ca4ece5350df15a7c60ee9cf059cb6/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/k1l14n/.android/build-cache/b6b38a4e41e7c9259ec1180d5fc01b63398a2682/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:customtabs:26.0.0-alpha1] /home/k1l14n/.android/build-cache/f2b958b40609589905b30039306c87592d9c61e8/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/k1l14n/.android/build-cache/e5363896128534507760b37409c4bc5d454893c7/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/k1l14n/.android/build-cache/5ca82bb99d8d370054b835a6b0c59a138db75993/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/k1l14n/.android/build-cache/d81b8121624ace69edf21e8696793e30e88c56a8/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/k1l14n/.android/build-cache/367be963a770aecc48210defd44e3a1a3916ce51/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/k1l14n/.android/build-cache/7aff7fe9ff4318dba5398dc85d9e34a467a8bba0/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/k1l14n/.android/build-cache/74c6aed702defcccd4e8cb2260099e246c5dc6be/output/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/83dbbc5a112db8780d76823cfc17404ecd3d61f7/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/208b427e4eb26c78250373ce7d04ea6d2ac10770/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/2d2715f4adb56ef2637c2d10dad80c2fe1a322c9/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/eb095dc2d55e1536bb477ee7334f3db84c40207a/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/9b5f4e105f17a4cf37285ef716923d742961274b/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/5a203ee407ef4b259626a160b13b933abf04d1f5/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/fe05ad491329f88b53470a82487b72995a4762fa/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/f21759f50e3a9d4e150b430ac4fb72148775fb94/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/286ad070d12f25942c405008d9bea3fad9226e3b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/83afeb8b958a1a9ec940f294f5fd32716310667a/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/64186dd99e62fab2ce498ec7502f117cc991b231/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/adrien/Documents/IMAG/android/.android/build-cache/bd81de08e639c2a4be88f4ddceb1b69faa0957a7/output/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/k1l14n/.android/build-cache/1933a82f9875314718a083bb7b82aee6fc394311/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/adrien/Documents/IMAG/android/.android/build-cache/fed6b5252e7c5e4b5299a30e35c4b5bd0906ee32/output/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:22:5-79
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/ca2f9bdd7cdbf7831c1ba65bc0b4b148984bdc1a/output/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:24:22-76
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:24:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/ca2f9bdd7cdbf7831c1ba65bc0b4b148984bdc1a/output/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:25:22-65
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:25:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:28:9-32:20
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:28:9-32:20
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/ca2f9bdd7cdbf7831c1ba65bc0b4b148984bdc1a/output/AndroidManifest.xml:28:9-32:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:30:13-35
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:30:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:29:13-85
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:29:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:33:9-41:20
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:33:9-41:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:35:13-35
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:35:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:36:13-36
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:36:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:37:13-69
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:37:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:34:13-100
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:34:13-100
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:38:13-40:29
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:38:13-40:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:39:17-79
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:39:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:39:25-76
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:39:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:43:9-46:40
-MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/k1l14n/.android/build-cache/c72c310b43b51adb873329701742687914d8d187/output/AndroidManifest.xml:34:9-37:40
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/ca2f9bdd7cdbf7831c1ba65bc0b4b148984bdc1a/output/AndroidManifest.xml:34:9-37:40
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:45:13-35
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:45:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:46:13-37
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:44:13-84
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:44:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:47:9-51:72
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:47:9-51:72
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:49:13-35
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:49:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:50:13-37
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:50:13-37
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:51:13-69
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:51:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/k1l14n/.android/build-cache/0bb4ee50832ec3e1c3b41c97f8e6699ad7f39437/output/AndroidManifest.xml:48:13-87
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/430aeb18da9b17ea62ea88e632bf98688b9410e1/output/AndroidManifest.xml:48:13-87
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:23:9-29:75
+ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:23:9-29:75
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:25:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:27:13-48
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:27:13-48
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:26:13-36
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:26:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:28:13-102
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:28:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:29:13-72
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:29:13-72
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/k1l14n/.android/build-cache/7158c48ed0fc6943d0568c9fcbb037a89d900ad2/output/AndroidManifest.xml:24:13-85
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/2bad24a477529e97e0d30c14d33d940508e275d6/output/AndroidManifest.xml:24:13-85
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/k1l14n/.android/build-cache/4a2b8ae3b7a1178dd49247e1529b3d8357fdd38c/output/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5072ef67c05918f85d02afd4ea56b79bb25e1c38/output/AndroidManifest.xml:24:13-79
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:29:13-82
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:31:13-33:29
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:31:28-51
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:31:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:32:17-78
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/k1l14n/.android/build-cache/0373d146cfec00252665d43d369813757265280b/output/AndroidManifest.xml:32:25-75
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/b8c581f42eaacb1051c1a6ec778bc0bf49621c40/output/AndroidManifest.xml:32:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:26:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:29:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:32:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:35:9-44:20
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:35:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:38:13-73
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:38:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:36:13-78
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:36:13-78
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:39:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:40:17-81
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:40:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:40:25-78
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:40:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:42:27-58
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:51:13-77
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/k1l14n/.android/build-cache/99ad769aea22979b1905645244ef062f37b40ed8/output/AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/7ecb3573dbb42a54cafdd60a830dfe32c57dca8d/output/AndroidManifest.xml:54:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:12.0.1] /home/k1l14n/.android/build-cache/c9f1ca4e359eb488a8a95c77caf6808f9c548c1d/output/AndroidManifest.xml:8:9-12:39
+ADDED from [com.google.firebase:firebase-common:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5f050c1d641ba5eed35343e963ba6c1f93fe5b17/output/AndroidManifest.xml:8:9-12:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/k1l14n/.android/build-cache/c9f1ca4e359eb488a8a95c77caf6808f9c548c1d/output/AndroidManifest.xml:10:13-72
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5f050c1d641ba5eed35343e963ba6c1f93fe5b17/output/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/k1l14n/.android/build-cache/c9f1ca4e359eb488a8a95c77caf6808f9c548c1d/output/AndroidManifest.xml:11:13-37
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5f050c1d641ba5eed35343e963ba6c1f93fe5b17/output/AndroidManifest.xml:11:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/k1l14n/.android/build-cache/c9f1ca4e359eb488a8a95c77caf6808f9c548c1d/output/AndroidManifest.xml:12:13-36
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5f050c1d641ba5eed35343e963ba6c1f93fe5b17/output/AndroidManifest.xml:12:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/k1l14n/.android/build-cache/c9f1ca4e359eb488a8a95c77caf6808f9c548c1d/output/AndroidManifest.xml:9:13-77
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/5f050c1d641ba5eed35343e963ba6c1f93fe5b17/output/AndroidManifest.xml:9:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/k1l14n/.android/build-cache/37f47d1f0e4ea8f83ea05529813de62d3c168df9/output/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/1272d51a533160c2368d3b63656bb896be03770c/output/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/k1l14n/.android/build-cache/37f47d1f0e4ea8f83ea05529813de62d3c168df9/output/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/1272d51a533160c2368d3b63656bb896be03770c/output/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/k1l14n/.android/build-cache/37f47d1f0e4ea8f83ea05529813de62d3c168df9/output/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/adrien/Documents/IMAG/android/.android/build-cache/1272d51a533160c2368d3b63656bb896be03770c/output/AndroidManifest.xml:24:13-58
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-cache/4e40ce274c32edddecb2cd8a5e947ea922fca807/output/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/adrien/Documents/IMAG/android/.android/build-cache/bdd2cfd6cc18f7a2a6bd48da0cb7035f502de87d/output/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-cache/4e40ce274c32edddecb2cd8a5e947ea922fca807/output/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/adrien/Documents/IMAG/android/.android/build-cache/bdd2cfd6cc18f7a2a6bd48da0cb7035f502de87d/output/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/k1l14n/.android/build-cache/4e40ce274c32edddecb2cd8a5e947ea922fca807/output/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/adrien/Documents/IMAG/android/.android/build-cache/bdd2cfd6cc18f7a2a6bd48da0cb7035f502de87d/output/AndroidManifest.xml:26:13-58
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/0804712d1ee3fda96471a1d52a92c83bb38a0e13/output/AndroidManifest.xml:9:5-79
+ADDED from [:nativescript_geolocation:] /home/adrien/Documents/IMAG/android/.android/build-cache/5625dbfbe86d0a1eede6ec2dcc3ebe385ec92296/output/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from [:nativescript_geolocation:] /home/k1l14n/.android/build-cache/0804712d1ee3fda96471a1d52a92c83bb38a0e13/output/AndroidManifest.xml:9:22-76
+		ADDED from [:nativescript_geolocation:] /home/adrien/Documents/IMAG/android/.android/build-cache/5625dbfbe86d0a1eede6ec2dcc3ebe385ec92296/output/AndroidManifest.xml:9:22-76
 service#org.nativescript.plugins.firebase.MyFirebaseMessagingService
-ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:12:9-16:19
+ADDED from [:firebase-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/43f6259d261b90c5ab6f8d70edff153ffcbd2ded/output/AndroidManifest.xml:12:9-16:19
 	android:name
-		ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:12:18-93
+		ADDED from [:firebase-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/43f6259d261b90c5ab6f8d70edff153ffcbd2ded/output/AndroidManifest.xml:12:18-93
 service#org.nativescript.plugins.firebase.MyFirebaseInstanceIDService
-ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:17:9-21:19
+ADDED from [:firebase-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/43f6259d261b90c5ab6f8d70edff153ffcbd2ded/output/AndroidManifest.xml:17:9-21:19
 	android:name
-		ADDED from [:firebase-release:] /home/k1l14n/.android/build-cache/3d2f0d38298377a4f6f38293bd98679c0ca8a7d4/output/AndroidManifest.xml:17:18-94
+		ADDED from [:firebase-release:] /home/adrien/Documents/IMAG/android/.android/build-cache/43f6259d261b90c5ab6f8d70edff153ffcbd2ded/output/AndroidManifest.xml:17:18-94
 service#com.telerik.pushplugin.PushPlugin
-ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:12:9-16:19
+ADDED from [:pushplugin:] /home/adrien/Documents/IMAG/android/.android/build-cache/c51aed13b68a80e6947bd40d241513f82459d8cf/output/AndroidManifest.xml:12:9-16:19
 	android:name
-		ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:12:18-66
+		ADDED from [:pushplugin:] /home/adrien/Documents/IMAG/android/.android/build-cache/c51aed13b68a80e6947bd40d241513f82459d8cf/output/AndroidManifest.xml:12:18-66
 service#com.telerik.pushplugin.InstanceIdListenerService
-ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:17:9-21:19
+ADDED from [:pushplugin:] /home/adrien/Documents/IMAG/android/.android/build-cache/c51aed13b68a80e6947bd40d241513f82459d8cf/output/AndroidManifest.xml:17:9-21:19
 	android:name
-		ADDED from [:pushplugin:] /home/k1l14n/.android/build-cache/50d3d8599473b7cee28e6cf81bc2ce97217ca7f3/output/AndroidManifest.xml:17:18-81
+		ADDED from [:pushplugin:] /home/adrien/Documents/IMAG/android/.android/build-cache/c51aed13b68a80e6947bd40d241513f82459d8cf/output/AndroidManifest.xml:17:18-81
