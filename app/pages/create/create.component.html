@@ -1,17 +1,32 @@
-
-<TabView>
+<Page loaded="onPageLoaded"
+    xmlns:df="nativescript-telerik-ui-pro/dataform">
+    <TabView>
         <StackLayout row="*, auto, auto, auto" colums="*" *tabItem="{title: 'Générateur'}" class="TabView">
 
             <TextView row="0" #echoTextField [(ngModel)]="echo" style="margin-top: 30px; margin-left: 30px; margin-right: 30px; margin-bottom: 30px" borderColor="#DEDEDE" borderWidth="1" height="500px" hint="Coder un signal"  returnKeyType="send" class="input input-border" (returnPress)="add()"></TextView>
 <!--                 <TextField row="0" #echoTextField [(ngModel)]="echo" hint="Coder un signal" textWrap="false" (returnPress)="add()"></TextField> -->
-                <Image *ngIf="image == null" row="1" src="res://add" height="900px" stretch="none" verticalAlignment="center" horizontalAlignment="center" (tap)="takePicture()"></Image>
-                <Image *ngIf="imageSrc != null" row="1" [src]="imageSrc" height="900px" stretch="none" verticalAlignment="center" horizontalAlignment="center" (tap)="takePicture()"></Image>
+                <Image *ngIf="image == null" row="1" src="res://icone_photo" height="auto" stretch="none" verticalAlignment="center" horizontalAlignment="center" (tap)="takePicture()"></Image>
+                <Image *ngIf="imageSrc != null" row="1" [src]="imageSrc" height="auto" stretch="none" verticalAlignment="center" horizontalAlignment="center" (tap)="takePicture()"></Image>
                 <Button *ngIf="imageSrc != null" row="2" text="Supprimer l'image" (tap)="onTapDelete()" class="btn btn-primary"></Button>
                 <Button row="3" text="Envoyer" verticalAlignment="bottom" class="btn btn-danger" (tap)="add()"></Button>
 
         </StackLayout>
         <StackLayout *tabItem="{title: 'Réglages'}" class="TabView">
-            <Label text="Label in Tab 2"></Label>
+            <StackLayout>
+                <df:RadDataForm id="myDataForm" source="{{ model }}">
+                <df:RadDataForm.properties>
+                    <df:EntityProperty name="text" displayName="Text" index="0" />
+                    <df:EntityProperty name="value" displayName="Value" index="1" valuesProvider="VALUE 0, VALUE 1, VALUE 2">
+                        <df:EntityProperty.editor>
+                            <df:PropertyEditor type="Picker" />
+                        </df:EntityProperty.editor>
+                    </df:EntityProperty>
+                </df:RadDataForm.properties>
+            </df:RadDataForm>
+            </StackLayout>
+            
+
         </StackLayout>
     </TabView>
 
+</Page>

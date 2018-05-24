@@ -26,11 +26,11 @@ export class ListComponent implements OnInit, OnDestroy {
   
   locationSubscription: Subscription;
   currentLocation: Location;
-  //echoList: Echo[] = [];
+  echoList: Echo[] = [];
   echoListPortee: any = [];
   event: any;
-/* 
-  echoSubscription: Subscription;
+
+  /* echoSubscription: Subscription;
   echoPorteeSubscription: Subscription; */
   
   constructor(
@@ -54,28 +54,30 @@ export class ListComponent implements OnInit, OnDestroy {
     this.geolocationService.updateLocation();
     this.geolocationService.emitLocation();
 
-    /* // en cas d'update de echo dans la portée
-    this.echoPorteeSubscription = this.echoListService.echosPorteeSubject.subscribe(
+    // en cas d'update de echo dans la portée
+    /* this.echoPorteeSubscription = this.echoListService.echosPorteeSubject.subscribe(
       (echosPortee: Echo[]) => {
         this.echoListPortee = echosPortee;
-      });
+      }); */
     // fire la méthode 'next' ie initialise this.echoListPortee ...
-    this.echoListService.emitEchosPortee();
+    //this.echoListService.emitEchosPortee();
 
     // permet de souscrire au Subject ie. être informé de toute modification
-    this.echoSubscription = this.echoListService.echosSubject.subscribe(
+    /* this.echoSubscription = this.echoListService.echosSubject.subscribe(
       (echos: Echo[]) => {
         this.echoList = echos;
-      });
+      }); */
     // fire la méthode 'next' ie initialise this.echoList ...
-    this.echoListService.emitEchos(); */
+    //this.echoListService.emitEchos();
 
     // charge les echos
-    this.echoListService.getEchos()
-      .then((args) => { 
-        this.echoListPortee = args;
-        //this.refreshList(this.event);
-      })
+    this.echoListService.getEchos();
+    
+    
+
+      /* .then(() => {
+        this.refreshList(this.event);
+      }) */
   }
 
   onViewEcho(idEcho) {
@@ -90,15 +92,19 @@ export class ListComponent implements OnInit, OnDestroy {
   
   refreshList(args) {
     var pullRefresh = args.object;
+    this.echoListService.getEchosRange().then(() => {
+      this.echoListPortee = this.echoListService.echosPortee;
+    })
+    
     setTimeout(function () {
        pullRefresh.refreshing = false;
     }, 1000);
   }
 
   ngOnDestroy() {
-    /* this.echoSubscription.unsubscribe();
-    this.echoPorteeSubscription.unsubscribe(); */
-    //this.locationSubscription.unsubscribe();
+    //this.echoSubscription.unsubscribe();
+    //this.echoPorteeSubscription.unsubscribe();
+    this.locationSubscription.unsubscribe();
   }
 
 }
